@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/my/my",
+    "pages/school/school",
+    "pages/quanZi/quanZi",
+    "pages/index/index",
+    "pages/shopCar/shopCar",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FF5901",
+    "navigationBarTitleText": "正大创业平台",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#ACACAC",
+    "selectedColor": "#437AF3",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath":"pages/quanZi/quanZi",
+        "text": "圈子"
+      },
+      {
+        "pagePath":"pages/shopCar/shopCar",
+        "text": "购物车"
+      },
+      {
+        "pagePath":"pages/school/school",
+        "text": "商学院"
+      },
+      {
+        "pagePath":"pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

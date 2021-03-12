@@ -1,0 +1,125 @@
+/* pages/school/school.wxss */
+.top{
+  width:100%;
+  height:292rpx;
+  background:#fff;
+  overflow: hidden;
+}
+
+.topUp{
+  width:638rpx;
+  height:145rpx;
+  margin:40rpx auto;
+  display:flex;
+  justify-content:space-between;
+}
+
+.topUpSon{
+  width:100rpx;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.topUpImg{
+  width:100rpx;
+  height:100rpx;
+  border-radius: 20rpx;
+}
+
+.topUpText{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #222B45;
+}
+
+.topBomBox{
+  width:552rpx;
+  height:100%;
+  margin:0 auto;
+  overflow: hidden;
+  display:flex;
+  justify-content:space-between;
+}
+
+.topBomSon{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.topBomText{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #8894A4;
+}
+
+.hengLine{
+  width: 32rpx;
+  height: 6rpx;
+  background: #FF5901;
+  border-radius: 4rpx;
+  margin-top:20rpx;
+}
+
+.activeText{
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #222B45;
+}
+
+.showList{
+  width:692rpx;
+  margin:30rpx auto 0 auto;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+.showBox{
+  width:336rpx;
+  height:350rpx;
+  background:#fff;
+  margin-bottom:20rpx;
+}
+
+.showBoxImg{
+  width:336rpx;
+  height:240rpx;
+  border-radius: 20rpx 20rpx 0px 0px;
+}
+
+.showBom{
+  margin:14rpx 20rpx 0 16rpx;
+}
+
+.showBomTitle{
+  width:100%;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+  text-overflow:ellipsis; 
+  white-space:nowrap; 
+  overflow:hidden; 
+}
+
+.showBomDat{
+  width:100%;
+  margin-top:8rpx;
+  display:flex;
+  justify-content:space-between;
+}
+
+.showBomPrice{
+  font-size: 24rpx;
+  font-weight: 600;
+  color: #ED1111;
+}
+
+.showBomNum{
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #C4C4C4;
+}

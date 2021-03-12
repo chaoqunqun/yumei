@@ -1,0 +1,147 @@
+<!-- top -->
+<view class="top">
+  <view class="myTop">
+    <view class="myHeadBox" catchtap="changeAvatar">
+      <image class="myHead" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2650750991,3273856340&fm=26&gp=0.jpg"></image>
+      <view class="cameraBox">
+        <image class="cameraImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1999225941,3558161239&fm=26&gp=0.jpg"></image>
+      </view>
+    </view>
+    <view class="myWord">
+      <view class="nickNameBox">
+        <view class="nickName">是什么让我这样</view>
+        <image class="mySign" mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2767723989,1009090693&fm=26&gp=0.jpg"></image>
+      </view>
+      <view class="nickText">我的梦想是吃遍天下美食！</view>
+    </view>
+
+    <image class="infoImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2505252739,2045090301&fm=26&gp=0.jpg"></image>
+    <image class="setImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2505252739,2045090301&fm=26&gp=0.jpg"></image>
+  </view>
+</view>
+
+<!-- myInfo -->
+<view class="myInfoBox">
+  <view class="myInfoLeft">
+    <view class="myInfoLeftUp">
+      <view class="leftLine"></view>
+      <view class="leftText">健康云</view>
+      <image class="leftWen" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2328745371,1095425806&fm=26&gp=0.jpg"></image>
+    </view>
+
+    <view class="myInfoLeftBom">
+      <canvas canvas-id="ringCanvas" class="canvas"></canvas>
+      <view class="myInfoLeftText">
+        <view class="leftSpan">健康分更新了可以去和朋友炫耀一下电路设计的呦~</view>
+        <view class="xuanBtn">去炫耀</view>
+      </view>
+      <view class="myInfoleftLine"></view>
+    </view>
+  </view>
+
+  <view class="myInfoRight">
+    <view class="myInfoLeftUp">
+      <view class="leftLine"></view>
+      <view class="leftText">我的钱包</view>
+      <view></view>
+    </view>
+
+    <view class="moneyBox">
+      <image class="moneyImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2818731301,1452182248&fm=26&gp=0.jpg"></image>
+      <view class="moneyNum">￥5698.36</view>
+    </view>
+  </view>
+</view>
+
+<!-- myOrder -->
+<view class="orderBox">
+  <view class="orderBoxT">
+    <view class="leftLine"></view>
+    <view class="leftText orderTitle">我的订单</view>
+    <image class="jiaoIcon" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1428277330,2681530823&fm=26&gp=0.jpg"></image>
+  </view>
+
+  <view class="orderNav">
+    <view class="orderNavBox">
+      <image class="orderIcon" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1639829983,1524205132&fm=26&gp=0.jpg"></image>
+      <view class="orderIconSapn">待支付</view>
+    </view>
+
+    <view class="orderNavBox">
+      <image class="orderIcon" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1639829983,1524205132&fm=26&gp=0.jpg"></image>
+      <view class="orderIconSapn">待发货</view>
+    </view>
+
+    <view class="orderNavBox">
+      <image class="orderIcon" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1639829983,1524205132&fm=26&gp=0.jpg"></image>
+      <view class="orderIconSapn">待收货</view>
+    </view>
+
+    <view class="orderNavBox">
+      <image class="orderIcon" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1639829983,1524205132&fm=26&gp=0.jpg"></image>
+      <view class="orderIconSapn">待评价</view>
+    </view>
+
+    <view class="orderNavBox">
+      <image class="orderIcon" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1639829983,1524205132&fm=26&gp=0.jpg"></image>
+      <view class="orderIconSapn">售后</view>
+    </view>
+  </view>
+</view>
+
+<!-- 常用功能 -->
+<view class="useFuncBox">
+  <view class="orderBoxT">
+    <view class="leftLine"></view>
+    <view class="leftText orderTitle">常用功能</view>
+  </view>
+
+  <view class="fucBoxDat">
+    <view class="fucSon">
+      <image class="fucIcon" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&fm=26&gp=0.jpg"></image>
+      <view class="funcText">我的收藏</view>
+    </view>
+
+    <view class="fucSon">
+      <image class="fucIcon" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&fm=26&gp=0.jpg"></image>
+      <view class="funcText">我的关注</view>
+    </view>
+
+    <view class="fucSon">
+      <image class="fucIcon" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&fm=26&gp=0.jpg"></image>
+      <view class="funcText">我的收藏</view>
+    </view>
+
+    <view class="fucSon">
+      <image class="fucIcon" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&fm=26&gp=0.jpg"></image>
+      <view class="funcText">我的积分</view>
+    </view>
+
+    <view class="fucSon">
+      <image class="fucIcon" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&fm=26&gp=0.jpg"></image>
+      <view class="funcText">我的地址</view>
+    </view>
+
+    <view class="fucSon">
+      <image class="fucIcon" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&fm=26&gp=0.jpg"></image>
+      <view class="funcText">我的返现</view>
+    </view>
+
+    <view class="fucSon">
+      <image class="fucIcon" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&fm=26&gp=0.jpg"></image>
+      <view class="funcText">成为代理商</view>
+    </view>
+
+    <view class="fucSon">
+      <image class="fucIcon" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&fm=26&gp=0.jpg"></image>
+      <view class="funcText">素材库</view>
+    </view>
+
+    <view class="fucSon">
+      <image class="fucIcon" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3848402655,92542552&fm=26&gp=0.jpg"></image>
+      <view class="funcText">我的云仓</view>
+    </view>
+
+    <view class="fucSon"></view>
+  </view>
+</view>
