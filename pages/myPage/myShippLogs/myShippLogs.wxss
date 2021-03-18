@@ -1,0 +1,117 @@
+.showBody{
+  width:100%;
+  margin-top:20rpx;
+  background:#fff;
+  overflow: hidden;
+}
+
+.top{
+  width:690rpx;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  margin:32rpx;
+}
+
+.topLeft{
+  display:flex;
+  align-items: center;
+}
+
+.topLimg{
+  width:36rpx;
+  height:36rpx;
+}
+
+.topLname{
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #222B45;
+  margin:0 20rpx 0 16rpx;
+}
+
+.topLnum{
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #ABA8A6;
+}
+
+.topRight{
+  width: 80rpx;
+  height: 40rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #FF5901;
+  text-align:center;
+  line-height:40rpx;
+  background: #FFFFFF;
+  border-radius: 30rpx;
+  border: 2rpx solid #FF5901;
+}
+
+.content{
+  display:flex;
+  margin-left:30rpx;
+}
+
+.contentL{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentR{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left:22rpx;
+}
+
+.contentLson{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentRson{
+  display:flex;
+  flex-direction: column;
+  margin-bottom:20rpx;
+}
+
+.syuan{
+  width: 10rpx;
+  height: 10rpx;
+  background: #FF5901;
+  border-radius:50%;
+  margin:6rpx 0;
+}
+
+.emptYuan{
+  width: 14rpx;
+  height: 14rpx;
+  background: #FFFFFF;
+  border: 4rpx solid #FF5901;
+  border-radius:50%;
+}
+
+.line{
+  width: 4rpx;
+  height: 58rpx;
+  background:#FF5901;
+  margin:6rpx 0;
+}
+
+.contentLsontext{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #222B45;
+}
+
+.contentLsontime{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #ABA8A6;
+  margin-top:6rpx;
+}

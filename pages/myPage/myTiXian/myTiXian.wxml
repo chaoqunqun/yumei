@@ -1,0 +1,16 @@
+<view class="chongDet" catchtap="goChongDet">明细</view>
+
+<view class="chongBox">
+  <view class="symbol">￥</view>
+  <input class="moneyInput" type="text" placeholder="请输入提现金额"/>
+</view>
+
+<view class="tiBox">
+  <view class="tiText">
+    余额： 
+    <text class="tiNum">￥5000.00</text>
+  </view>
+  <view class="tiSpan">提示：提现默认到微信；首次提现需要您的微信授权</view>
+</view>
+
+<view class="confirm">申请提现</view>

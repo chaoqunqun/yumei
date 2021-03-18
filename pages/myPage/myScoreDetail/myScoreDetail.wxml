@@ -1,0 +1,22 @@
+<view wx:for="{{6}}">
+  <view class="scoreNav">
+    <view class="scoreTime">2020年12月</view>
+    <image class="duiImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+  </view>
+  
+  <view class="bg"></view>
+
+  <view class="scoreList">
+    <view class="scoreBox">
+      <view class="scoreBoxL">
+        <view>+10</view>
+        <view>2020-03-23 14:33</view>
+      </view>
+      <view class="scoreBoxR">
+        <view>来源：分享</view>
+        <view>积分： 1000</view>
+      </view>
+    </view>
+  </view>
+  <view class="bg"></view>
+</view>

@@ -1,0 +1,102 @@
+<view class="showBody">
+  <view class="productBox">
+    <view class="productTop">
+      <view class="productLeft">
+        <image class="headImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+        <view class="headNick">
+          <view class="headName">夏天的雪</view>
+          <view class="headSpan">我的理想那个啥更待何时</view>
+        </view>
+      </view>
+      <view class="productR">
+        <image class="guanImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+        <view class="guanText">关注</view>
+      </view>
+    </view>
+
+    <view class="goodsExplain">正大优选果肽饮168g膳食营养纤维冲饮</view>
+
+    <!-- 图片 -->
+    <view class="goodsImgBox">
+      <image wx:for="{{6}}" class="goodsBanner" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+    </view>
+
+    <view class="touBox">
+      <view class="groupBox">
+        <view class="groupBoxSon">
+          <image class="groupImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+          <view>
+            <view class="groupMtext">果肽饮交流小组</view>
+            <view class="groupMNum">20945人已加入</view>
+          </view>
+        </view>
+        <view class="addRu">加入</view>
+      </view>
+
+      <view class="groupBom">
+        <view class="groupBomFather">
+          <view class="groupBomSon">
+            <image class="groupBomImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+            <view class="groupBomNum">66</view>
+          </view>
+
+          <view class="groupBomSon">
+            <image class="groupBomImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+            <view class="groupBomNum">66</view>
+          </view>
+
+          <view class="groupBomSon">
+            <image class="groupBomImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+            <view class="groupBomNum">66</view>
+          </view>
+
+          <view class="groupBomSon">
+            <image class="groupBomImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+            <view class="groupBomNum">66</view>
+          </view>
+        </view>
+        <image class="groupBomImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="showBody">
+  <view class="commonTop">
+    <view class="commonLine"></view>
+    <view class="commonText">最新评论</view>
+  </view>
+
+  <view class="pinBox" wx:for="{{6}}">
+    <view class="xunBox">
+      <image class="pinHead" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2941782042,3120113709&fm=26&gp=0.jpg"></image>
+      <view class="pinRightBox">
+        <view class="pinRightTitle">
+          <view>
+            <view class="rightNick">我是吃货吗</view>
+            <view class="pinRightText">2小时前</view>
+          </view>
+          <view class="zanBox">
+            <text class="zanNum">66</text>
+            <image class="zanImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2941782042,3120113709&fm=26&gp=0.jpg"></image>
+          </view>
+        </view>
+        
+        <!-- introduce -->
+        <view class="pinInfo">
+          正大优选果肽饮168g膳食营养纤维冲饮正大优选果肽饮168g膳食营养纤维冲饮
+        </view>
+
+        <!-- 商家回复 -->
+        <view class="bsnsReply">
+          <view class="chatBox">
+            <view class="bsnsChat">荆颖：</view>
+            <view class="chatText">任何人的错都是我的错</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+    
+</view>

@@ -1,0 +1,109 @@
+.showBody{
+  width:690rpx;
+  margin:30rpx auto;
+}
+
+.pinBox{
+  width: 690rpx;
+  /* height: 501rpx; */
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  display:flex;
+  overflow: hidden;
+  margin-bottom:20rpx;
+}
+
+.pinHead{
+  width: 72rpx;
+  height: 72rpx;
+  border-radius:50%;
+  margin:32rpx 16rpx 0 32rpx;
+}
+
+.pinRightBox{
+  margin:32rpx 0;
+}
+
+.pinRightTitle{
+  width:540rpx;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.rightNick{
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #222B45;
+}
+
+.rightTime{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #ABA8A6;
+}
+
+.pinRightStar{
+  display:flex;
+  align-items: center;
+  margin-top:4rpx;
+}
+
+.pinRightStar image{
+  width:28rpx;
+  height:28rpx;
+  margin-left:4rpx;
+}
+
+.pinInfo{
+  width:534rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #222B45;
+  line-height: 32rpx;
+  margin-top:20rpx;
+}
+
+.pinImgBox{
+  width:540rpx;
+  display:flex;
+  flex-wrap: wrap;
+  margin-top:20rpx;
+  margin-bottom:10rpx;
+}
+
+.pinImg{
+  width:120rpx;
+  height:120rpx;
+  border-radius: 20rpx;
+  margin:0 20rpx 20rpx 0;
+}
+
+.pinImg:nth-child(4n){
+  margin-right:0;
+}
+
+/* 商家回复 */
+.bsnsReply{
+  width:540rpx;
+  border-top:2rpx solid #F0F3F5;
+}
+
+.bsnsTitle{
+  width:100%;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #ABA8A6;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top:28rpx;
+}
+
+.replyWord{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #222B45;
+  line-height: 36rpx;
+  margin-top:4rpx;
+}

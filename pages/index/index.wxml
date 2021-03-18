@@ -23,8 +23,9 @@
 </view> -->
 
 <view class="top">
-  <view class="searchBox">
-    <input type="text" class="searchBox" placeholder="正大健康食品" style="text-align:center;"/>
+  <view class="searchBox" catchtap="goSearch">
+    <image class="searchImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3545561584,783374626&fm=26&gp=0.jpg"></image>
+    <view>正大健康食品</view>
   </view>
 </view>
 
@@ -45,7 +46,7 @@
   <view>
     <scroll-view class="nav navOne" scroll-x="true">
       <block wx:for="{{10}}" wx:key="ww">
-        <view class="navSon">
+        <view class="navSon" catchtap="goDetail">
           <view class="navSun">
             <image class="navImg" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=146893042,4244628931&fm=26&gp=0.jpg" mode="aspectFill"/>
             <text class="textOne">健康食品</text>
@@ -62,7 +63,7 @@
     <view class="goodsNav">
       <scroll-view class="nav navTwo" scroll-x="true">
         <block wx:for="{{10}}" wx:key="tt">
-          <view class="navSon">
+          <view class="navSon" catchtap="goDetail">
             <view class="navSunTwo">
               <image class="navImgTwo" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1592300431,450815993&fm=26&gp=0.jpg" mode="aspectFill"/>
               <text class="textTwo">健康食品</text>
@@ -81,7 +82,7 @@
     <view class="goodsNav">
       <scroll-view class="nav navThree" scroll-x="true">
         <block wx:for="{{10}}" wx:key="tt">
-          <view class="navSon">
+          <view class="navSon" catchtap="goShop">
             <view class="navSunThree">
               <image class="navImgThree" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=644857477,1763993558&fm=11&gp=0.jpg" mode="aspectFill"/>
               <text class="textThree">正大食品旗舰店</text>
@@ -101,8 +102,8 @@
     <!-- 瀑布流布局 -->
     <view class='footlist'>
       <view class="foot-left">
-        <block wx:for="{{list}}" wx:key="{{ item.id }}">
-          <view class='footbox' catchtap='jumpdetail' catchlongtap="deletefoot" bindtouchend="touchend" id="{{item.id}}" wx:if="{{index%2==0}}" data-cover="{{item.banner}}" data-title="{{item.title}}">
+        <block wx:for="{{list}}" wx:key="t">
+          <view class='footbox' catchtap='goDetail' wx:if="{{index%2==0}}">
             <view style="position:relative;">
               <image src="{{item.banner}}" mode="widthFix"></image>
               <view class="zhiBo">
@@ -124,8 +125,8 @@
       </view>
 
       <view class="foot-right">
-        <block wx:for="{{list}}" wx:key="{{ item.id }}">
-          <view class='footbox' catchtap='jumpdetail' catchlongtap="deletefoot" bindtouchend="touchend" id="{{item.id}}" wx:if="{{index%2==1}}" data-cover="{{item.banner}}" data-title="{{item.title}}">
+        <block wx:for="{{list}}" wx:key="t">
+          <view class='footbox' catchtap='goDetail'  wx:if="{{index%2==1}}">
             <view style="position:relative;">
               <image src="{{item.banner}}" mode="widthFix"></image>
               <view class="zhiBo">

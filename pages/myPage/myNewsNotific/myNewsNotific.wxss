@@ -1,0 +1,104 @@
+.newsBox{
+  width:690rpx;
+  margin:30rpx auto;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+
+.newsTop{
+  width:630rpx;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  margin:26rpx auto;
+}
+
+.newsTitle{
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #222B45;
+}
+
+.newsTime{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #ABA8A6;
+}
+
+.replyBox{
+  width:630rpx;
+  display:flex;
+  align-items:center;
+  margin:0 auto 20rpx auto;
+}
+
+.replyImg{
+  width:72rpx;
+  height:72rpx;
+  border-radius:50%;
+  margin-right:16rpx;
+}
+
+.replyR{
+  width:630rpx;
+}
+
+.replyRt{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #ABA8A6;
+}
+
+.replyRt text{
+  color: #FF5901;
+}
+
+.replyText{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #222B45;
+  line-height:34rpx;
+}
+
+/* newsText */
+.newsText{
+  width:630rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #222B45;
+  line-height:34rpx;
+  margin:0 0 20rpx 30rpx;
+}
+
+/* detBox */
+.detBox{
+  width: 542rpx;
+  height: 154rpx;
+  background: #FCFCFC;
+  border-radius: 20rpx;
+  display:flex;
+  align-items:center;
+  margin-bottom:32rpx;
+}
+
+.detImg{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 20rpx;
+  margin:0 20rpx 0 30rpx;
+}
+
+.detText{
+  width:370rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #9C9998;
+  line-height: 36rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow:hidden;
+  -webkit-box-orient: vertical;
+}

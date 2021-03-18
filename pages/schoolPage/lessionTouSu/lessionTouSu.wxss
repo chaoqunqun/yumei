@@ -1,0 +1,118 @@
+.showBody{
+  width:100%;
+  background:#fff;
+  margin-top:20rpx;
+  overflow: hidden;
+}
+
+.showList{
+  width:690rpx;
+  margin:30rpx auto;
+}
+
+.productBox{
+  width:690rpx;
+  height:120rpx;
+  display:flex;
+}
+
+.productImg{
+  width:120rpx;
+  height:120rpx;
+  border-radius: 20rpx;
+}
+
+.productRight{
+  margin-left:30rpx;
+}
+
+.productName{
+  width: 482rpx;
+  height: 72rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+  line-height:36rpx;
+  margin-bottom:4rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow:hidden;
+  -webkit-box-orient: vertical;
+}
+
+.productSpec{
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #ABA8A6;
+  margin:8rpx 0;
+}
+
+.productRightBom{
+  width:500rpx;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productPrice{
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #ED1111;
+}
+
+.productNum{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+}
+
+.tousuText{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+  margin:30rpx 0 38rpx 0;
+}
+
+.xing{
+  color:#ED1111
+}
+
+/* 投诉原因 */
+.resonBox{
+  width:100%;
+}
+
+.checkGroup{
+  display:flex;
+  flex-direction: column;
+}
+
+.checkLabel{
+  transform:scale(0.8,0.8);
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #9C9998;
+  margin-bottom:28rpx;
+  margin-left:-75rpx;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox{
+  margin-right:20rpx;
+}
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background: #FF5901 !important;
+  color: #fff!important;
+}
+
+.textArea{
+  width:100%;
+  height:300rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #C4C4C4;
+}

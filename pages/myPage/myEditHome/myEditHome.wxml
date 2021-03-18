@@ -1,0 +1,50 @@
+<!-- top -->
+<view class="top">
+  <image class="topImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3663359702,1992818410&fm=26&gp=0.jpg"></image>
+  <view class="topHead">
+    <view style="position:relative;">
+      <image class="topHeadImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3663359702,1992818410&fm=26&gp=0.jpg"></image>
+      <view class="cameraImgBox">
+        <image class="cameraImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3663359702,1992818410&fm=26&gp=0.jpg"></image>
+      </view>
+    </view>
+  </view>
+  <view class="changeBox">更换封面</view>
+</view>
+
+<!-- 编辑 -->
+<view class="editBox" style="height:{{phoneHeight}}">
+  <view class="editSon">
+    <view class="editText">昵称</view>
+    <input class="editInput" type="text" placeholder="请输入昵称"/>
+  </view>
+  <view class="editSon">
+    <view class="editText">签名</view>
+    <input class="editInput" type="text" placeholder="请输入签名"/>
+  </view>
+  <view class="editSon">
+    <view class="editText">性别</view>
+    <radio-group class="editInput" bindchange="radioChange">
+      <label class="radio">
+          <radio value="男"/>男
+          <radio value="女"/>女
+      </label>
+    </radio-group>
+  </view>
+  <picker mode="date" value="{{1}}" start="1970-01-01" end="2020-01-01"  fields ="day"  bindchange="chooseBirth">
+    <view class="editSon">
+      <view class="editText">生日</view>
+      <input class="editInput" type="text" placeholder="{{birth!=''?birth:'请选择生日'}}" disabled="true"/>
+    </view>
+  </picker>
+
+  <picker mode="region" bindchange="chooseAdd" value="{{region}}">
+    <view class="editSon">
+      <view class="editText">所在地</view>
+      <input class="editInput" type="text" placeholder="{{region.length!=0?region:'请选择所在地'}}" disabled="true"/>
+    </view>
+  </picker>  
+</view>
+
+<!-- 提交 -->
+<view class="confirmBtn">更新</view>

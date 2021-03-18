@@ -55,7 +55,7 @@
 
 <!-- myOrder -->
 <view class="orderBox">
-  <view class="orderBoxT">
+  <view class="orderBoxT" catchtap="goOrder">
     <view class="leftLine"></view>
     <view class="leftText orderTitle">我的订单</view>
     <image class="jiaoIcon" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1428277330,2681530823&fm=26&gp=0.jpg"></image>

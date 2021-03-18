@@ -1,0 +1,99 @@
+<!-- 头部video -->
+<view class="videoBox">
+  <video class="video"
+    src="http://mvvideo1.meitudata.com/575c2b652d7375255.mp4"
+    show-center-play-btn/>
+</view>
+
+<!-- 视频简介 -->
+<view class="videoIntro">
+  <view class="introBox">
+    <view class="introBoxL">
+      <view class="BoxLtext">微信交互列表引流</view>
+      <view>
+        <text class="BoxLSpanO">公开课</text>
+        <text class="BoxLSpanT">300人正在学习次课程备份</text>
+      </view>
+    </view>
+    <view class="introBoxR">
+      <image class="shouImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2699863970,3643884691&fm=26&gp=0.jpg"></image>
+      <view class="shouText">收藏</view>
+    </view>
+  </view>
+</view>
+
+<!-- 名师简介 -->
+<view class="teacherIntro">
+  <view class="commonTop">
+    <view class="commonLine"></view>
+    <view class="commonText">名师简介</view>
+  </view>
+  <view class="teacherInfo">
+    <image class="teacherImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2699863970,3643884691&fm=26&gp=0.jpg"></image>
+    <view class="teacherInfoR">
+      <view class="teacherNick">夏天的雪</view>
+      <view class="teacherText">殷孟波，教授，博士生导师。四川省学术和技术带头人四川省有突出贡献的中青年专家，中国金融学会常务理事从教师到教研室主任再到金融学院院长，从助教到讲师到</view>
+    </view>
+  </view>
+</view>
+
+<!-- 课程简介 -->
+<view class="teacherIntro">
+  <view class="commonTop">
+    <view class="commonLine"></view>
+    <view class="commonText">课程简介</view>
+  </view>
+
+  <view class="lessionIntro">
+    <!-- 后台返回图片 -->
+    <!-- <image mode="aspectFill" src=""></image> -->
+  </view>
+</view>
+
+<!-- 学员评论 -->
+<view class="teacherIntro">
+  <view class="commonTopTwo">
+    <view class="commonTopTwoL">
+      <view class="commonLine"></view>
+      <view class="commonText">
+        学员评论
+        <text class="commonNum">(280)</text>
+      </view>
+    </view>
+    <image class="pingduiImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3112613485,140787990&fm=26&gp=0.jpg"></image>
+  </view>
+
+  <!-- 评价框循环 -->
+  <view class="pingBox" wx:for="{{2}}" wx:key="g">
+    <view class="pingBoxTop">
+      <image class="pingHead" mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1891644509,147964853&fm=26&gp=0.jpg"></image>
+      <view class="pingNick">夏天的雪</view>
+    </view>
+    <view class="pingInfo">
+      这个口感真的是很好，味道也是我喜欢的，点个赞，下次还会在买，多买几份送人也不错
+    </view>
+  </view>
+</view>
+
+<!-- 课程推荐 -->
+<view class="lessionHot">
+  <view class="commonTop">
+    <view class="commonLine"></view>
+    <view class="commonText">课程推荐</view>
+  </view>
+
+  <view class="showList">
+    <view class="showBox" wx:for="{{6}}" wx:key="u"> 
+      <image class="showBoxImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3663359702,1992818410&fm=26&gp=0.jpg"></image>
+      <view class="showBom">
+        <view class="showBomTitle">短视频教学</view>
+        <view class="showBomDat">
+          <view class="showBomPrice">￥30.00</view>
+          <view class="showBomNum">350人报名</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+

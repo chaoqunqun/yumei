@@ -1,0 +1,87 @@
+<view class="showBody" style="height:{{phoneHeight}}">
+  <view class="showBodyTitle">审核已通过</view>
+  <view class="chartFlow">
+    <view class="chartFlowTop">
+      <view class="yuanD"></view>
+      <view class="hLine"></view>
+      <view class="yuanD"></view>
+      <view class="hLine"></view>
+      <view class="yuanD"></view>
+      <view class="hLine"></view>
+      <view class="yuanD"></view>
+      <view class="hLine"></view>
+      <view class="yuanD"></view>
+    </view>
+
+    <view class="chartFlowBom">
+      <view>提交申请</view>
+      <view>商家审核</view>
+      <view>回寄商品</view>
+      <view>商家收货</view>
+      <view>商家退款</view>
+    </view>
+  </view>
+  <view class="listBox">
+    <view class="productBox" catchtap="goOrderDetail">
+      <image class="productImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2485954775,21433741&fm=26&gp=0.jpg"></image>
+      <view class="productRight">
+        <view class="productName">正大优选果肽饮168g膳食营养纤维冲饮</view>
+        <view class="productSpec">168g</view>
+        <view class="productRightBom">
+          <view class="productPrice">￥168.00</view>
+          <view class="productNum">x1</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="statusBox">
+    <view class="sLine"></view>
+    <view class="status">状态</view>
+  </view>
+
+  <!-- 订单详情 -->
+  <view class="orderInfo">
+    <view class="orderInfoDet">
+      <view class="infoDetBox">
+        <view class="infoDetBoxL">服务单号：</view>
+        <view class="infoDetBoxR">zd123456789</view>
+      </view>
+      <view class="copyBtn" catchtap="clickCopy">复制</view>
+    </view>
+
+    <view class="orderInfoDet">
+      <view class="infoDetBox">
+        <view class="infoDetBoxL">申请时间：</view>
+        <view class="infoDetBoxR">2020-12-13 17:22:30</view>
+      </view>
+    </view>
+
+    <view class="orderInfoDet">
+      <view class="infoDetBox">
+        <view class="infoDetBoxL">审核时间：</view>
+        <view class="infoDetBoxR">2020-12-13 17:22:30</view>
+      </view>
+    </view>
+
+    <view class="orderInfoDet">
+      <view class="infoDetBox">
+        <view class="infoDetBoxL">服务类型：</view>
+        <view class="infoDetBoxR">退货</view>
+      </view>
+    </view>
+
+    <view class="orderInfoDet">
+      <view class="infoDetBox">
+        <view class="infoDetBoxL">申请原因：</view>
+        <view class="infoDetBoxR">质量问题</view>
+      </view>
+    </view>
+  </view>
+  
+  <!-- 底部按钮 -->
+  <view class="bomBtnBox">
+    <view class="commonBtn cacelBtn">取消售后</view>
+    <view class="commonBtn numBtn">填写物流单号</view>
+  </view>
+</view>

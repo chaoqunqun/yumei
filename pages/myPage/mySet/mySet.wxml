@@ -1,0 +1,17 @@
+<view class="bgTop"></view>
+<view class="checkBox">
+  <view class="checkText">查看协议</view>
+  <image class="duiImg" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3461177213,1528805342&fm=26&gp=0.jpg"></image>
+</view>
+<view class="checkBox">
+  <view class="checkText">关于我们</view>
+  <image class="duiImg" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3461177213,1528805342&fm=26&gp=0.jpg"></image>
+</view>
+<view class="checkBox">
+  <view class="checkText">分享</view>
+  <image class="duiImg" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3461177213,1528805342&fm=26&gp=0.jpg"></image>
+</view>
+<view class="checkBox">
+  <view class="checkText">反馈</view>
+  <image class="duiImg" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3461177213,1528805342&fm=26&gp=0.jpg"></image>
+</view>

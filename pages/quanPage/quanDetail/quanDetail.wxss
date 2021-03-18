@@ -1,0 +1,169 @@
+/* bodyTop */
+.bodyTop{
+  width: 100%;
+  height: 360rpx;
+  position:relative;
+}
+
+.bodyTopImg{
+  width:100%;
+  height:100%;
+}
+
+.bodyHead{
+  position:absolute;
+  left:30rpx;
+  bottom:20rpx;
+  display:flex;
+}
+
+.bodyHeadImg{
+  width:100rpx;
+  height:100rpx;
+  border-radius:50%;
+}
+
+.bodyHeadR{
+  margin-left:20rpx;
+  margin-top:10rpx;
+}
+
+.bodyHeadT{
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.bodyHeadS{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top:6rpx;
+}
+
+.commonTop{
+  display:flex;
+  align-items:center;
+  margin:30rpx 0 0 36rpx;
+}
+
+.commonLine{
+  width: 6rpx;
+  height: 24rpx;
+  background: #FF5901;
+  border-radius: 4rpx;
+}
+
+.commonText{
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #222B45;
+  margin-left:20rpx;
+}
+
+/* showList */
+.showList{
+  width:690rpx;
+  margin:30rpx auto;
+}
+
+.showBox{
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  overflow: hidden;
+  margin-bottom:20rpx;
+}
+
+.showBoxSon{
+  width:636rpx;
+  margin:30rpx auto;
+}
+
+.showBoxTop{
+  width:100%;
+  height:72rpx;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.topLeft{
+  width:350rpx;
+  height:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.topLeftImg{
+  width:72rpx;
+  height:72rpx;
+  border-radius:50%;
+}
+
+.topLeftText view:nth-child(1){
+  width:256rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+  text-overflow:ellipsis; 
+  white-space:nowrap; 
+  overflow:hidden; 
+}
+
+.topLeftText view:nth-child(2){
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #C4C4C4;
+}
+
+.bigTitle{
+  font-size:24rpx;
+  font-weight: 400;
+  color: #222B45;
+  margin:20rpx 0;
+}
+
+.showBannerImg{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 20rpx;
+  margin-bottom:20rpx;
+  margin-right:20rpx;
+}
+
+.showBom{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.showLitBom{
+  display:flex;
+  align-items: center;
+}
+
+.showBomSon{
+  display:flex;
+  align-items:center;
+  margin-right:48rpx;
+}
+
+.showBomIcon{
+  width:32rpx;
+  height:32rpx;
+}
+
+.showBomNum{
+  font-size: 12px;
+  font-weight: bold;
+  color: #C4C4C4;
+  margin-left:6rpx;
+}
+
+.rightImg{
+  width:32rpx;
+  height:32rpx;
+}

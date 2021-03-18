@@ -1,0 +1,23 @@
+<view class="bgTop"></view>
+<view class="pingBox">
+  <view class="pingInfoBox">
+    <view class="starBox">
+      <view class="plaseText">
+        <text>+</text>
+        <text class="chooseQuan">选择圈子</text> 
+        <text>有什么新鲜事和圈友分享一下~</text>
+      </view>
+      <image class="duiImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3663359702,1992818410&fm=26&gp=0.jpg"></image>
+    </view>
+    <view class="pingInfoText"></view>
+  </view>
+  <textarea class='pingText' placeholder="分享您的想法" maxlength='500'/>
+  <view class="pingImgBox">
+    <!-- 上传图片集合 -->
+    <image class="upImg" wx:for="{{tempFilePaths}}" wx:key="r" src='{{item}}' bindlongpress="deleteImage" bindtap="" data-index="{{index}}" mode="aspectFill"/>
+    <view class="addupImg" wx:if="{{tempFilePaths.length<6}}" catchtap="uploadImg"></view>
+  </view>
+</view>
+
+<!-- 提交 -->
+<view class="confirmBtn">发布</view>

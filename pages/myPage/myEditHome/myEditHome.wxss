@@ -1,0 +1,122 @@
+/* top */
+.top{
+  width:100%;
+  height:360rpx;
+  position:relative;
+}
+
+.topImg{
+  width:100%;
+  height:100%;
+}
+
+.topHead{
+  width: 125rpx;
+  height: 125rpx;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+
+.topHeadImg{
+  width:120rpx;
+  height:120rpx;
+  border-radius:50%;
+}
+
+.cameraImgBox{
+  width:40rpx;
+  height:40rpx;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  bottom:0;
+  right:0;
+  background:#fff;
+}
+
+.cameraImg{
+  width:32rpx;
+  height:32rpx;
+}
+
+.changeBox{
+  width: 118rpx;
+  height: 38rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: center;
+  line-height:38rpx;
+  border-radius: 30rpx;
+  border: 2rpx solid #FFFFFF;
+  position:absolute;
+  bottom:30rpx;
+  right:30rpx;
+}
+
+/* editBox */
+.editBox{
+  width:100%;
+  position:relative;
+}
+
+.editSon{
+  width:690rpx;
+  height:98rpx;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  margin:0 auto;
+  border-bottom:2rpx solid #F0F3F5;
+}
+
+.editText{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+}
+
+.editInput{
+  width:594rpx;
+  height:100%;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #DADADA;
+  line-height:98rpx;
+}
+
+.radio radio:nth-child(2){
+  margin-left:20rpx;
+}
+
+radio{
+  transform:scale(0.9,0.9);
+}
+
+radio .wx-radio-input.wx-radio-input-checked {
+  background: #FF5901 !important;
+  border:none;
+  color: #fff!important;
+}
+
+/* 提交 */
+.confirmBtn{
+  width: 578rpx;
+  height: 100rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  text-align: center;
+  line-height:100rpx;
+  color: #FFFFFF;
+  background: #FF5901;
+  box-shadow: 0px 4px 9px 0px rgba(255, 89, 1, 0.2);
+  border-radius: 50rpx;
+  position:absolute;
+  left:86rpx;
+  bottom:30rpx;
+}

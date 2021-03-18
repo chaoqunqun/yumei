@@ -20,11 +20,14 @@
   align-items:center;
 }
 
+.topSonP{
+  height:24rpx;
+}
+
 .topText{
   font-size: 28rpx;
   font-weight: 400;
   color: #8894A4;
-  margin-top:26rpx;
 }
 
 .hengLine{

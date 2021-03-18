@@ -1,0 +1,334 @@
+.orderTop{
+  width:100%;
+  height:262rpx;
+  background:#FF5901;
+  border-radius: 0 0 20rpx 20rpx;
+  overflow: hidden;
+}
+
+.orderTopDet{
+  width:690rpx;
+  margin:32rpx auto 0 auto;
+  overflow: hidden;
+}
+
+.orderDetImg{
+  width:72rpx;
+  height:72rpx;
+  float:left;
+  margin-top:5rpx;
+}
+
+.orderTopMid{
+  float:left;
+  margin-left:16rpx;
+}
+
+.orderTopMidT{
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.midTbom{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #FFFFFF;
+  display:flex;
+  align-items:center;
+  margin-top:6rpx;
+}
+
+.midTbomTime{
+  margin-left:40rpx;
+}
+
+.goWhatBtn{
+  width: 128rpx;
+  height: 60rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #FF5901;
+  text-align: center;
+  line-height: 60rpx;
+  background: #FFFFFF;
+  border-radius: 30rpx;
+  border: 2rpx solid #FF5901;
+  float:right;
+  margin-top:10rpx;
+}
+
+/* showList */
+.showList{
+  width:690rpx;
+  margin:-86rpx auto 30rpx auto;
+}
+
+.addBox{
+  width: 690rpx;
+  height: 140rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  overflow: hidden;
+  margin-bottom:20rpx;
+}
+
+.addBoxSon{
+  width:642rpx;
+  margin:34rpx 0 0 30rpx;
+}
+
+.dingImg{
+  width:32rpx;
+  height:32rpx;
+  float:left;
+  margin-top:4rpx;
+}
+
+.addBoxMid{
+  width:80%;
+  margin-left:10rpx;
+  float:left;
+}
+
+.addName{
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #222B45;
+}
+
+.addInfo{
+  width:100%;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #ABA8A6;
+  margin-top:10rpx;
+  overflow: hidden;
+  text-overflow:ellipsis; 
+  white-space:nowrap;
+}
+
+.duiImg{
+  width:40rpx;
+  height:40rpx;
+  float:right;
+}
+
+/* 商品信息 */
+.listBox{
+  width:690rpx;
+  height: 292rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  margin-bottom:20rpx;
+}
+
+.listBoxTop{
+  width:630rpx;
+  height:96rpx;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-left:30rpx;
+}
+
+.listTopRight{
+  width:80%;
+  height:100%;
+  display:flex;
+  align-items:center;
+}
+
+.listBoxImg{
+  width:40rpx;
+  height:40rpx;
+}
+
+.listBoxName{
+  width:80%;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #222B45;
+  margin-left:10rpx;
+  text-overflow:ellipsis; 
+  white-space:nowrap; 
+  overflow:hidden; 
+}
+
+.ifText{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #FF5901;
+}
+
+.successText{
+  color: #ABA8A6;
+}
+
+.productBox{
+  width:630rpx;
+  height:160rpx;
+  display:flex;
+  margin:6rpx 0 30rpx 30rpx;
+}
+
+.productImg{
+  width:160rpx;
+  height:160rpx;
+  border-radius: 20rpx;
+}
+
+.productRight{
+  margin-left:20rpx;
+}
+
+.productName{
+  width: 370rpx;
+  height: 72rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+  line-height:36rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow:hidden;
+  -webkit-box-orient: vertical;
+}
+
+.productSpec{
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #ABA8A6;
+  margin:8rpx 0;
+}
+
+.productRightBom{
+  width:450rpx;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productPrice{
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #ED1111;
+}
+
+.productNum{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+}
+
+/* 订单详情 */
+.orderInfo{
+  width: 690rpx;
+  height: 472rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  margin:20rpx 0 150rpx 0;
+  overflow: hidden;
+}
+
+.orderInfoTop{
+  margin:30rpx 0 30rpx 30rpx;
+  display:flex;
+  align-items: center;
+}
+
+.line{
+  width: 6rpx;
+  height: 24rpx;
+  background: #FF5901;
+  border-radius: 4rpx;
+}
+
+.infoTopT{
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #222B45;
+  margin-left:20rpx;
+}
+
+.orderInfoDet{
+  width:646rpx;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left:30rpx;
+  margin-bottom:20rpx;
+}
+
+.infoDetBox{
+  display:flex;
+  align-items: center;
+}
+
+.infoDetBoxL{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #ABA8A6;
+}
+
+.infoDetBoxR{
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #222B45;
+  margin-left:20rpx;
+}
+
+.infoDetBoxROne{
+  margin-left:45rpx;
+}
+
+.copyBtn{
+  width: 80rpx;
+  height: 40rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #FF5901;
+  text-align: center;
+  line-height:40rpx;
+  background: #FFFFFF;
+  border-radius: 30rpx;
+  border: 2rpx solid #FF5901;
+}
+
+/* 底部 */
+.orderBom{
+  width:100%;
+  height:100rpx;
+  background:#fff;
+  position:fixed;
+  bottom:0;
+  left:0;
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.commonBtn{
+  height: 72rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+  text-align: center;
+  line-height:72rpx;
+  border-radius: 40rpx;
+  border: 2rpx solid #FF5901;
+  margin:0 20rpx 0 0;
+}
+
+.orderBomBtn{
+  width: 172rpx;
+  color: #FF5901;
+  background: #FFFFFF;
+}
+
+.goBomBtn{
+  width: 150rpx;
+  color: #FFFFFF;
+  background: #FF5901;
+}

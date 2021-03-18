@@ -1,0 +1,8 @@
+<view class="chongDet" catchtap="goChongDet">明细</view>
+
+<view class="chongBox">
+  <view class="symbol">￥</view>
+  <input class="moneyInput" type="text" placeholder="请输入充值金额"/>
+</view>
+
+<view class="confirm">确认充值</view>

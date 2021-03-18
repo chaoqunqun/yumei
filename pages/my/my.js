@@ -31,6 +31,13 @@ Page({
     
   },
 
+ // 跳转订单
+ goOrder(){
+    wx.navigateTo({
+      url: '../myPage/myOrder/myOrder',
+    })
+ },
+
   // 修改头像
   changeAvatar(){
     var that=this;

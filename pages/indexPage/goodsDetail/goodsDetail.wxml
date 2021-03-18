@@ -1,0 +1,161 @@
+<!-- 引入wxParse -->
+<import src="../../wxParse/wxParse.wxml" />
+<!-- 轮播图 -->
+<view class="swiperBox">
+  <swiper class="swiperSon" indicator-dots="{{true}}" autoplay interval="{{2000}}" indicator-color='rgba(255, 255, 255, 0.5)' indicator-active-color="#fff"  current="{{current}}">
+    <block wx:for="{{3}}" wx:key='ooooo'>
+      <swiper-item>
+        <image mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3545561584,783374626&fm=26&gp=0.jpg"  mode="aspectFill"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<!-- spcBox -->
+<view class="spcBox">
+  <view class="spcTop">
+    <view class="spcPrice">￥66.00</view>
+    <view class="helthCore">健康分 76.00</view>
+    <view class="spcCang">
+      <image class="emptyStar" mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2718219500,1861579782&fm=26&gp=0.jpg"></image>
+      <view class="shouText">收藏</view>
+    </view>
+  </view>
+
+  <!-- goodsName -->
+  <view class="goodsName">
+    <text class="goodsText">自营</text>
+    <text class="goodsText">佣</text>
+    <text class="goodsSpan">正大优选果肽饮168g膳食营养纤维冲饮正大优选果肽饮168g膳食营养纤维冲饮</text>
+  </view>
+
+  <!-- 已选 -->
+  <view class="chooseBox">
+    <view>已选</view>
+    <view>果肽饮套装，168g装，1件</view>
+  </view>
+</view>
+
+<!-- 官方自营 七天无理由退货 -->
+<view class="productDes">
+  <image class="duiImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2188201594,3481121273&fm=26&gp=0.jpg"></image>
+  <view>官方自营</view>
+  <image class="duiImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2188201594,3481121273&fm=26&gp=0.jpg"></image>
+  <view>七天无理由退货</view>
+</view>
+
+<!-- 评价 -->
+<view class="goodsPing">
+  <view class="goodsPingTop" catchtap="goPing">
+    <view class="commonLine"></view>
+    <view class="pingText">评价</view>
+    <view class="pingNum">(286)</view>
+    <image class="pingduiImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3112613485,140787990&fm=26&gp=0.jpg"></image>
+  </view>
+  
+  <!-- 循环评价框 -->
+  <view class="pingBox" wx:for="{{3}}" wx:key="g">
+    <view class="pingBoxTop">
+      <image class="pingHead" mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1891644509,147964853&fm=26&gp=0.jpg"></image>
+      <view class="pingNick">夏天的雪</view>
+    </view>
+    <view class="pingInfo">
+      这个口感真的是很好，味道也是我喜欢的，点个赞，下次还会在买，多买几份送人也不错
+    </view>
+  </view>
+</view>
+
+<!-- 详情 -->
+<view class="goodsPing">
+  <view class="goodsPingTop">
+    <view class="commonLine"></view>
+    <view class="pingText">详情</view>
+  </view>
+  <!-- 详情富文本 -->
+  <view class="detailBox">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+  </view>
+</view>
+
+<!-- 商品推荐 -->
+<view class="shopTui">
+  <view class="shopTuiTop">
+    <view class="shopTuiLeft">
+      <image class="tuiHead" mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2480604110,4008147240&fm=26&gp=0.jpg"></image>
+      <view class="tuiShop">
+        <view class="tuiShopName">正大商品旗舰店</view>
+        <view class="tuiSale">月售 565</view>
+      </view>
+    </view>
+    <image class="tuiDuiImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=999747225,3775907541&fm=26&gp=0.jpg"></image>
+  </view>
+
+  <!-- 瀑布流 -->
+  <view class="listShow">
+    <view class='footlist'>
+      <view class="foot-left">
+        <block wx:for="{{list}}" wx:key="q">
+          <view class='footbox'  wx:if="{{index%2==0}}">
+            <view style="position:relative;">
+              <image src="{{item.banner}}" mode="widthFix"></image>
+              <view class="zhiBo">
+                <view class="lineBox">
+                  <view class="line"></view>
+                  <view class="line"></view>
+                  <view class="line"></view>
+                </view>
+                <view class="boText">直播</view>
+              </view>
+            </view>
+            <view class="box-shadow">
+                <view class="ziYing" wx:if="{{item.ifzi=='true'}}">自营</view>
+                <text class='t1' style="margin-left:{{item.ifzi=='true'?'62rpx':''}}">{{item.title}}</text>
+                <view class="footPrice">￥28.00</view>
+            </view>
+          </view>
+        </block>
+      </view>
+
+      <view class="foot-right">
+        <block wx:for="{{list}}" wx:key="e">
+          <view class='footbox' wx:if="{{index%2==1}}">
+            <view style="position:relative;">
+              <image src="{{item.banner}}" mode="widthFix"></image>
+              <view class="zhiBo">
+                <view class="lineBox">
+                  <view class="line"></view>
+                  <view class="line"></view>
+                  <view class="line"></view>
+                </view>
+                <view class="boText">直播</view>
+              </view>
+            </view>
+            <view class="box-shadow">
+              <text class='t1'>{{item.title}}</text>
+              <view class="footPrice">￥28.00</view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- bottom -->
+<view class="detailBom">
+  <view class="detailBomSon">
+    <image class="bomSonImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=305022367,1443492564&fm=26&gp=0.jpg"></image>
+    <view class="bomSonText">店铺</view>
+  </view>
+  <view class="detailBomSon">
+    <image class="bomSonImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=305022367,1443492564&fm=26&gp=0.jpg"></image>
+    <view class="bomSonText">客服</view>
+  </view>
+  <view class="detailBomSon">
+    <image class="bomSonImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=305022367,1443492564&fm=26&gp=0.jpg"></image>
+    <view class="bomSonText">购物车</view>
+    <view class="bomSonNum">2</view>
+  </view>
+  <view class="addCartBtn">加入购物车</view>
+  <view class="ljBtn">立即购买</view>
+</view>

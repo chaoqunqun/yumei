@@ -1,0 +1,77 @@
+<view class="showList">
+  <view class="addBox" catchtap="goAdd">
+    <view class="addBoxSon">
+      <image class="dingImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3244729309,2441217116&fm=26&gp=0.jpg"></image>
+      <view class="addBoxMid">
+        <view class="addName">
+          <view>钱磊 182****6699</view>
+          <view class="moRen">默认</view>
+        </view>
+        <view class="addInfo">北京市朝阳区三环到四环之间</view>
+      </view>
+      <image class="duiImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3244729309,2441217116&fm=26&gp=0.jpg"></image>
+    </view>
+  </view>
+
+  <!-- 产品确认详情 -->
+  <view class="productInfo">
+    <view class="listBoxTop">
+      <view class="listTopRight">
+        <image class="listBoxImg" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3461177213,1528805342&fm=26&gp=0.jpg"></image>
+        <view class="listBoxName">正大食品旗舰店</view>
+      </view>
+    </view>
+    <view class="goodsBox">
+      <image class="goodsImg" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3461177213,1528805342&fm=26&gp=0.jpg"></image>
+      <view class="goodsBoxRight">
+        <view class="goodsName">正大优选果肽饮168g膳食营养纤维冲饮</view>
+        <view class="goodsRightBom">
+          <view class="goodsPrice">￥26.00</view>
+          <view class="goodsNum">
+            <view class="goodsOperation">-</view>
+            <view class="goodsNumber">2</view>
+            <view class="goodsOperation">+</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 留言 -->
+  <view class="leaveMessage">
+    <view class="leaveText">留言</view>
+    <input class="messageInput" type="text" placeholder="请填写您的留言"/>
+  </view>
+
+  <!-- feeInfo -->
+  <view class="feeInfo">
+    <view class="feeDetail">
+      <view class="feeDetName">商品金额</view>
+      <view class="feeDetPrice">￥566</view>
+    </view>
+
+    <view class="feeDetail">
+      <view class="feeDetName">运费</view>
+      <view class="feeDetPrice">￥56</view>
+    </view>
+
+    <view class="feeDetail">
+      <view class="feeDetName">优惠金额</view>
+      <view class="feeDetPrice">￥5</view>
+    </view>
+
+    <view class="feeDetail">
+      <view></view>
+      <view class="feeDetName feeBom">合计： ￥566</view>
+    </view>
+  </view>
+</view>
+
+<!-- 底部合计 -->
+<view class="confirmBom">
+  <view class="confirmBomL">
+    <view class="totalNum">共计2件</view>
+    <view class="totalPrice">合计： ￥566.00</view>
+  </view>
+  <view class="confirmBtn">提交订单</view>
+</view>

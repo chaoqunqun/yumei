@@ -1,0 +1,79 @@
+<!-- top -->
+<view class="top">
+  <image class="topImg" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3755487796,2483575869&fm=11&gp=0.jpg"></image>
+  <view class="topSetBox">
+    <image class="setImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3387716082,1768697998&fm=26&gp=0.jpg"></image>
+    <image class="setImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3387716082,1768697998&fm=26&gp=0.jpg"></image>
+    <image class="setImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3387716082,1768697998&fm=26&gp=0.jpg"></image>
+  </view>
+  <view class="topMyInfo">
+    <image class="topMyImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3387716082,1768697998&fm=26&gp=0.jpg"></image>
+    <view class="myInfoRight">
+      <view class="infoRightTop">
+        <view class="zyBox">自营</view>
+        <view class="shopTitle commonText">正大食品旗舰店</view>
+      </view>
+      <view class="infoRightTop">
+        <image class="dingImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2699863970,3643884691&fm=26&gp=0.jpg"></image>
+        <view class="addText commonText">北京朝阳区正阳门下那条胡同口</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- showBody -->
+<view class="showBody">
+  <!-- 销量人气 -->
+  <view class="navBox">
+    <view>销量</view>
+    <view>人气</view>
+  </view>
+
+  <!-- 瀑布流布局 -->
+  <view class='footlist'>
+      <view class="foot-left">
+        <block wx:for="{{list}}" wx:key="{{ item.id }}">
+          <view class='footbox' catchtap='jumpdetail' catchlongtap="deletefoot" bindtouchend="touchend" id="{{item.id}}" wx:if="{{index%2==0}}" data-cover="{{item.banner}}" data-title="{{item.title}}">
+            <view style="position:relative;">
+              <image src="{{item.banner}}" mode="widthFix"></image>
+              <view class="zhiBo">
+                <view class="lineBox">
+                  <view class="line"></view>
+                  <view class="line"></view>
+                  <view class="line"></view>
+                </view>
+                <view class="boText">直播</view>
+              </view>
+            </view>
+            <view class="box-shadow">
+                <view class="ziYing" wx:if="{{item.ifzi=='true'}}">自营</view>
+                <text class='t1' style="margin-left:{{item.ifzi=='true'?'62rpx':''}}">{{item.title}}</text>
+                <view class="footPrice">￥28.00</view>
+            </view>
+          </view>
+        </block>
+      </view>
+
+      <view class="foot-right">
+        <block wx:for="{{list}}" wx:key="{{ item.id }}">
+          <view class='footbox' catchtap='jumpdetail' catchlongtap="deletefoot" bindtouchend="touchend" id="{{item.id}}" wx:if="{{index%2==1}}" data-cover="{{item.banner}}" data-title="{{item.title}}">
+            <view style="position:relative;">
+              <image src="{{item.banner}}" mode="widthFix"></image>
+              <view class="zhiBo">
+                <view class="lineBox">
+                  <view class="line"></view>
+                  <view class="line"></view>
+                  <view class="line"></view>
+                </view>
+                <view class="boText">直播</view>
+              </view>
+            </view>
+            <view class="box-shadow">
+              <text class='t1'>{{item.title}}</text>
+              <view class="footPrice">￥28.00</view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+</view>

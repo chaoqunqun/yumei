@@ -1,0 +1,33 @@
+<view class="showBody" style="height:{{phoneHeight}}">
+  <view class="showList">
+
+    <view class="productBox" catchtap="goOrderDetail">
+      <image class="productImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2485954775,21433741&fm=26&gp=0.jpg"></image>
+      <view class="productRight">
+        <view class="productName">正大优选果肽饮168g膳食营养纤维冲饮</view>
+        <view class="productRightBom">
+          <view class="productPrice">￥168.00</view>
+          <view class="productNum">x1</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="tousuText">
+      投诉原因(多选)
+      <text class="xing">*</text>
+    </view>
+
+    <!-- 投诉原因 -->
+    <view class="resonBox">
+      <checkbox-group class="checkGroup" bindchange="checkboxChange">
+        <label class="checkLabel" wx:for="{{resionList}}" wx:key="t" style="color:{{item.selected==true?'#222B45':''}}">
+          <checkbox class="checkbox" value="{{item.name}}"/>
+          {{item.name}}
+        </label>
+      </checkbox-group>
+    </view>
+
+    <!-- 想法 -->
+    <textarea class="textArea" maxlength="500" placeholder="想输入您的想法"></textarea>
+  </view>
+</view>

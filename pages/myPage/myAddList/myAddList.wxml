@@ -1,0 +1,24 @@
+<view class="addTop">
+  <image class="topLeftImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3244729309,2441217116&fm=26&gp=0.jpg"></image>
+  <view class="topText">我的地址</view>
+  <view class="topRight" catchtap="goAdd">
+    <image class="addImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3244729309,2441217116&fm=26&gp=0.jpg"></image>
+    <view class="addText">新增</view>
+  </view>
+</view>
+
+<view class="showList">
+  <view class="addBox" wx:for="{{6}}" wx:key="u" catchtap="goAdd">
+    <view class="addBoxSon">
+      <image class="dingImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3244729309,2441217116&fm=26&gp=0.jpg"></image>
+      <view class="addBoxMid">
+        <view class="addName">
+          <view>钱磊 182****6699</view>
+          <view class="moRen">默认</view>
+        </view>
+        <view class="addInfo">北京市朝阳区三环到四环之间</view>
+      </view>
+      <image class="duiImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3244729309,2441217116&fm=26&gp=0.jpg"></image>
+    </view>
+  </view>
+</view>

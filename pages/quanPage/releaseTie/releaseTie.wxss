@@ -1,0 +1,101 @@
+page{
+  background:#fff;
+}
+.bgTop{
+  width:100%;
+  height:20rpx;
+  background:#f8f8f8;
+}
+.pingBox{
+  width:690rpx;
+  margin:0rpx auto;
+  overflow: hidden;
+}
+
+.pingInfoBox{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  margin:30rpx;
+}
+
+.pingInfoText{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+}
+
+.starBox{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.plaseText{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #C4C4C4;
+  margin-right:6rpx;
+}
+
+.chooseQuan{
+  font-size:28rpx;
+  margin:0 10rpx;
+  color:#222B45;
+}
+
+.duiImg{
+  width:40rpx;
+  height:40rpx;
+}
+
+.pingText{
+  width:632rpx;
+  height:145rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #C4C4C4;
+  margin:30rpx;
+}
+
+.pingImgBox{
+  width:690rpx;
+  display:flex;
+  flex-wrap:wrap;
+  margin-bottom:20rpx;
+  margin-left:30rpx;
+}
+
+.upImg{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 20rpx;
+  margin-right:20rpx;
+  margin-bottom:20rpx;
+}
+
+.addupImg{
+  width: 158rpx;
+  height: 158rpx;
+  background: #F0F3F5;
+  border-radius: 20rpx;
+  border: 2rpx solid #DADADA;
+}
+
+/* 提交 */
+.confirmBtn{
+  width: 578rpx;
+  height: 100rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  text-align: center;
+  line-height:100rpx;
+  color: #FFFFFF;
+  background: #FF5901;
+  box-shadow: 0px 4px 9px 0px rgba(255, 89, 1, 0.2);
+  border-radius: 50rpx;
+  position:absolute;
+  left:86rpx;
+  bottom:30rpx;
+}

@@ -1,0 +1,48 @@
+<view class="bodyTop">
+  <image class="bodyTopImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3663359702,1992818410&fm=26&gp=0.jpg"></image>
+  <view class="bodyHead">
+    <image class="bodyHeadImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3663359702,1992818410&fm=26&gp=0.jpg"></image>
+    <view class="bodyHeadR">
+      <view class="bodyHeadT">夏天的雪</view>
+      <view class="bodyHeadS">快点跟大家分享一下吧</view>
+    </view>
+  </view>
+</view>
+
+<!-- 最新评论 -->
+<view class="commonTop">
+  <view class="commonLine"></view>
+  <view class="commonText">最新评论</view>
+</view>
+
+<!-- body -->
+<view class="showList">
+  <view class="showBox" wx:for="{{num}}" wx:key="d" wx:for-index="bigindex">
+    <view class="showBoxSon">
+      <view class="showBoxTop">
+        <view class="topLeft">
+          <image class="topLeftImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3663359702,1992818410&fm=26&gp=0.jpg"></image>
+          <view class="topLeftText">
+            <view>国泰银喝大社区</view>
+            <view>吴思思 2分钟前 发布了</view>
+          </view>
+        </view>
+      </view>
+
+      <view class="bigTitle">正大优选果肽饮168g膳食营养纤维冲饮</view>
+
+      <image wx:for="{{3}}" class="showBannerImg" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3729172792,562998515&fm=26&gp=0.jpg"></image>
+      
+      <view class="showBom">
+        <view class="showLitBom">
+          <view class="showBomSon" wx:for="{{item.bomList}}" catchtap="clickBom" data-num="{{item.nbm}}" data-index="{{index}}" wx:key="d" data-bindex="{{bigindex}}">
+            <image  class="showBomIcon" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3729172792,562998515&fm=26&gp=0.jpg"></image>
+            <view class="showBomNum">{{item.nbm}}</view>
+          </view>
+        </view>
+        <image class="rightImg" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3729172792,562998515&fm=26&gp=0.jpg"></image>
+      </view>
+    </view>
+  </view>
+
+</view>

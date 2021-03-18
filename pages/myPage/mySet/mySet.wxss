@@ -1,0 +1,33 @@
+page{
+  background:#fff;
+}
+.bgTop{
+  width:100%;
+  height:20rpx;
+  background:#f8f8f8;
+}
+
+.checkBox{
+  width:690rpx;
+  height:100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #F0F3F5;
+  margin:0 auto;
+}
+
+.checkBox:last-child{
+  border:0;
+}
+
+.checkText{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+}
+
+.duiImg{
+  width:40rpx;
+  height:40rpx;
+}

@@ -1,0 +1,27 @@
+<view class="addTop">
+  <image class="topLeftImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3244729309,2441217116&fm=26&gp=0.jpg"></image>
+  <view class="topText">发表评价</view>
+  <view class="topRight" catchtap="confirmFa">发表</view>
+</view>
+
+<view class="pingBox">
+  <view class="productBox">
+    <image class="productImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3663359702,1992818410&fm=26&gp=0.jpg"></image>
+    <view class="productInfo">
+      <view class="productName">正大优选果肽饮168g膳食营养纤维冲饮膳食营养</view>
+      <view class="productSpec">168g</view>
+    </view>
+  </view>
+  <view class="pingInfoBox">
+    <view class="pingInfoText">商品评价</view>
+    <view class="starBox">
+      <image class="star" catchtap="changeColor" data-index='0' data-no="{{item}}" wx:for="{{stardata}}" wx:key="index" src="{{flag[0]>=item?'../../images/starH.png':'../../images/starK.png'}}"></image>
+    </view>
+  </view>
+  <textarea class='pingText' placeholder="点击添加文本" maxlength='500'/>
+  <view class="pingImgBox">
+    <!-- 上传图片集合 -->
+    <image class="upImg" wx:for="{{tempFilePaths}}" wx:key="r" src='{{item}}' bindlongpress="deleteImage" bindtap="" data-index="{{index}}" mode="aspectFill"/>
+    <view class="addupImg" wx:if="{{tempFilePaths.length<6}}" catchtap="uploadImg"></view>
+  </view>
+</view>

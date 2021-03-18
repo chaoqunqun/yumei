@@ -1,0 +1,35 @@
+/* listShow */
+.listShow{
+  width:692rpx;
+  margin:30rpx auto;
+}
+
+/* 列表 */
+.footlist {
+  width:100%;
+  border-radius: 20rpx 20rpx 0 0;
+  display:flex;
+  justify-content:space-between;
+}
+
+.foot-left{
+  width:336rpx;
+}
+
+.foot-right{
+  width:336rpx;
+}
+
+.footbox {
+  width:336rpx;
+  margin-bottom:20rpx;
+  background:#fff;
+  border-radius:30rpx;
+}
+
+.footImg {
+  width:336rpx;
+  border-radius: 20rpx 20rpx 0 0;
+}
+
+

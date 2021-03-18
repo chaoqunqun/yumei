@@ -1,0 +1,80 @@
+.commonTop{
+  display:flex;
+  align-items:center;
+  margin:30rpx 0 30rpx 36rpx;
+}
+
+.commonLine{
+  width: 6rpx;
+  height: 24rpx;
+  background: #FF5901;
+  border-radius: 4rpx;
+}
+
+.commonText{
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #222B45;
+  margin-left:20rpx;
+}
+
+.commonText text{
+  font-size: 24rpx;
+  color: #ABA8A6;
+}
+
+/* 推荐人 */
+.commonMy{
+  width: 690rpx;
+  height: 136rpx;
+  display:flex;
+  align-items:center;
+  background: #FFFFFF;
+  overflow: hidden;
+  margin:0 auto;
+}
+
+.myTui{
+  border-radius: 20rpx;
+}
+
+.myYao:first-child{
+  border-radius:20rpx 20rpx 0 0;
+}
+
+.myYao:last-child{
+  border-radius:0 0 20rpx 20rpx;
+}
+
+.tuiRbox{
+  width:542rpx;
+  padding:28rpx 0;
+}
+
+.tuiR{
+  border-bottom:2rpx solid #F0F3F5;
+}
+
+.tuiImg{
+  width: 72rpx;
+  height: 72rpx;
+  border-radius:50%;
+  margin:0 16rpx 0 30rpx;
+}
+
+.tuiNick{
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #222B45;
+  margin-bottom:6rpx;
+}
+
+.tuiTime{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #ABA8A6;
+}
+
+.myYaoBox{
+  border-radius: 20rpx;
+}

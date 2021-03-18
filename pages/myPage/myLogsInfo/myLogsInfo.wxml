@@ -1,0 +1,12 @@
+<view class="chooseType" catchtap="applyTui">
+  <view class="chooseText">申请退货</view>
+  <image class="duiImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2485954775,21433741&fm=26&gp=0.jpg"></image>
+</view>
+
+<view class="chooseType" catchtap="applyTui">
+  <view class="chooseText wuNum">{{qRCodeMsg}}</view>
+  <image class="duiImg codeImg" catchtap="scanCode" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2485954775,21433741&fm=26&gp=0.jpg"></image>
+</view>
+
+<!-- 提交 -->
+<view class="confirmBtn">提交</view>

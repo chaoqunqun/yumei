@@ -2,16 +2,19 @@
 <view class="top">
   <view class="topBox">
     <view class="topSon" catchtap="clickNav" data-index="0">
+      <view class="topSonP"></view>
       <view class='topText {{navIndex==0 ? "activeText" : ""}}'>推荐</view>
       <view class="hengLine" style="display:{{navIndex==0?'block':'none'}}"></view>
     </view>
 
     <view class="topSon" catchtap="clickNav" data-index="1">
+      <view class="topSonP"></view>
       <view class='topText {{navIndex==1 ? "activeText" : ""}}'>关注的圈子</view>
       <view class="hengLine" style="display:{{navIndex==1?'block':'none'}}"></view>
     </view>
 
     <view class="topSon" catchtap="clickNav" data-index="2">
+      <view class="topSonP"></view>
       <view class='topText {{navIndex==2 ? "activeText" : ""}}'>圈子</view>
       <view class="hengLine" style="display:{{navIndex==2?'block':'none'}}"></view>
     </view>

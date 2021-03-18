@@ -1,0 +1,97 @@
+/* top */
+.top{
+  width:100%;
+  height:92rpx;
+  background:#fff;
+  overflow: hidden;
+  display:flex;
+  justify-content:space-between;
+}
+
+.topSon{
+  width: 375rpx;
+  height: 92rpx;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.topSonP{
+  height:24rpx;
+}
+
+.topText{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #8894A4;
+}
+
+.hengLine{
+  width: 32rpx;
+  height: 6rpx;
+  background: #FF5901;
+  border-radius: 4rpx;
+  margin-top:20rpx;
+}
+
+.activeText{
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #222B45;
+}
+
+/* 关注list */
+.guanBox{
+  width: 690rpx;
+  height: 160rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  margin:0rpx auto 20rpx auto;
+  display:flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.guanBoxR{
+  height:100rpx;
+  display:flex;
+  align-items:center;
+  margin:30rpx 30rpx 0 30rpx;
+}
+
+.guanImg{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  margin-right:20rpx;
+}
+
+.guanBoxText{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+}
+
+.guanBoxNum{
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #ABA8A6;
+  margin-top:6rpx;
+}
+
+.guanBoxL{
+  display:flex;
+  margin:46rpx 30rpx 0 0;
+}
+
+.guanBoxLImg{
+  width:32rpx;
+  height:32rpx;
+}
+
+.guanBoxLtext{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #C4C4C4;
+  margin-right:4rpx;
+}

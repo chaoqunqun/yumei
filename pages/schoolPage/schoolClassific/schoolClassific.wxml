@@ -1,0 +1,19 @@
+<view class="showBody" style="height:{{phoneHeight}}">
+  <view class="showBodyL">
+    <view wx:for="{{list}}" wx:key="t" wx:for-index="index" data-index="{{index}}" class="showBodyLson {{navIndex==index?'activeText':''}}" catchtap="clickNav">
+      {{item.name}}
+    </view>
+  </view>
+  <view class="showBodyR">
+    <scroll-view scroll-y style="height:100%;">
+      <view class="showBodyRson" wx:for="{{6}}" wx:key="h">
+        <image class="rSonImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3244729309,2441217116&fm=26&gp=0.jpg"></image>
+        <view class="rSonr">
+          <view class="rSonrT">短视频抖音教学短视频抖音教学</view>
+          <view class="rSonrP">￥28.00</view>
+          <view class="rSonrN">349人报名</view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

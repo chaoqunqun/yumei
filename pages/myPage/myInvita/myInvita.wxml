@@ -1,0 +1,33 @@
+<view class="commonTop">
+  <view class="commonLine"></view>
+  <view class="commonText">我的推荐人</view>
+</view>
+
+<!-- 我的推荐人 -->
+<view class="commonMy myTui">
+  <image class="tuiImg" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3461177213,1528805342&fm=26&gp=0.jpg"></image>
+  <view class="tuiRbox">
+    <view class="tuiNick">满雁山</view>
+    <view class="tuiTime">2008年05月12日 07:30</view>
+  </view>
+</view>  
+
+<!-- 我的邀请 -->
+<view class="commonTop">
+  <view class="commonLine"></view>
+  <view class="commonText">
+    我的邀请
+    <text>(共邀请23人)</text> 
+  </view>
+</view>
+
+<!-- 我的邀请人 -->
+<view class="myYaoBox">
+  <view class="commonMy myYao" wx:for="{{6}}">
+    <image class="tuiImg" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3461177213,1528805342&fm=26&gp=0.jpg"></image>
+    <view class="tuiRbox tuiR">
+      <view class="tuiNick">满雁山</view>
+      <view class="tuiTime">2008年05月12日 07:30</view>
+    </view>
+  </view> 
+</view>

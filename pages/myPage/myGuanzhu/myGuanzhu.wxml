@@ -1,0 +1,33 @@
+<!-- top -->
+<view class="top">
+
+  <view class="topSon" catchtap="clickNav" data-index="0">
+    <view class="topSonP"></view>
+    <view class='topText {{navIndex==0 ? "activeText" : ""}}'>店铺</view>
+    <view class="hengLine" style="display:{{navIndex==0?'block':'none'}}"></view>
+  </view>
+
+  <view class="topSon" catchtap="clickNav" data-index="1">
+    <view class="topSonP"></view>
+    <view class='topText {{navIndex==1 ? "activeText" : ""}}'>圈友</view>
+    <view class="hengLine" style="display:{{navIndex==1?'block':'none'}}"></view>
+  </view>
+
+</view>
+
+<!-- list -->
+<scroll-view scroll-y="true" style="height:{{phoneHeight}};margin-top:30rpx;">
+  <view class="guanBox" wx:for="{{20}}">
+    <view class="guanBoxR">
+      <image class="guanImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3663359702,1992818410&fm=26&gp=0.jpg"></image>
+      <view class="guanBoxRb">
+        <view class="guanBoxText">正大御膳旗舰店</view>
+        <view class="guanBoxNum">3095人关注</view>
+      </view>
+    </view>
+    <view class="guanBoxL">
+      <image class="guanBoxLImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3663359702,1992818410&fm=26&gp=0.jpg"></image>
+      <view class="guanBoxLtext">关注</view>
+    </view>
+  </view>
+</scroll-view>

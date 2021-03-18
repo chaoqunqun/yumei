@@ -1,0 +1,99 @@
+<!-- top -->
+<view class="top">
+
+  <view class="topSon" catchtap="clickNav" data-index="0">
+    <view class="topSonP"></view>
+    <view class='topText {{navIndex==0 ? "activeText" : ""}}'>动态</view>
+    <view class="hengLine" style="display:{{navIndex==0?'block':'none'}}"></view>
+  </view>
+
+  <view class="topSon" catchtap="clickNav" data-index="1">
+    <view class="topSonP"></view>
+    <view class='topText {{navIndex==1 ? "activeText" : ""}}'>商品</view>
+    <view class="hengLine" style="display:{{navIndex==1?'block':'none'}}"></view>
+  </view>
+
+</view>
+
+<!--  动态 -->
+<view class="dong" wx:if="{{dongFlag}}">
+  <view class="showBody" wx:for="{{6}}">
+    <view class="productBox">
+      <view class="productTop">
+        <view class="productLeft">
+          <image class="headImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+          <view class="headNick">
+            <view class="headName">夏天的雪</view>
+            <view class="headSpan">我的理想那个啥更待何时</view>
+          </view>
+        </view>
+        <view class="productR">
+          <view class="guanText">2020-12-14 13:14</view>
+        </view>
+      </view>
+
+      <view class="goodsExplain">正大优选果肽饮168g膳食营养纤维冲饮</view>
+
+      <!-- 图片 -->
+      <view class="goodsImgBox">
+        <image wx:for="{{3}}" class="goodsBanner" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+      </view>
+
+      <view class="touBox">
+        <view class="groupBox">
+          <view class="groupBoxSon">
+            <image class="groupImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+            <view>
+              <view class="groupMtext">果肽饮交流小组</view>
+              <view class="groupMNum">20945人已加入</view>
+            </view>
+          </view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 商品 -->
+<view class="listShow" wx:if="{{showFlag}}">
+  <!-- 瀑布流布局 -->
+  <view class='footlist'>
+    <view class="foot-left">
+      <block wx:for="{{list}}" wx:key="{{ item.id }}">
+        <view class='footbox' catchtap='jumpdetail' catchlongtap="deletefoot" bindtouchend="touchend" id="{{item.id}}" wx:if="{{index%2==0}}" data-cover="{{item.banner}}" data-title="{{item.title}}">
+          <view style="position:relative;">
+            <image class="footImg" src="{{item.banner}}" mode="widthFix"></image>
+          </view>
+          <view class="box-shadow">
+              <view class="ziYing" wx:if="{{item.ifzi=='true'}}">自营</view>
+              <text class='t1' style="margin-left:{{item.ifzi=='true'?'62rpx':''}}">{{item.title}}</text>
+              <view class="footPriceBox">
+                <view class="footPrice">￥28.00</view>  
+                <image class="carImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+              </view>
+          </view>
+        </view>
+      </block>
+    </view>
+
+    <view class="foot-right">
+      <block wx:for="{{list}}" wx:key="{{ item.id }}">
+        <view class='footbox' catchtap='jumpdetail' catchlongtap="deletefoot" bindtouchend="touchend" id="{{item.id}}" wx:if="{{index%2==1}}" data-cover="{{item.banner}}" data-title="{{item.title}}">
+          <view style="position:relative;">
+            <image  class="footImg" src="{{item.banner}}" mode="widthFix"></image>
+          </view>
+          <view class="box-shadow">
+            <text class='t1'>{{item.title}}</text>
+            <view class="footPriceBox">
+              <view class="footPrice">￥28.00</view>  
+              <image class="carImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3446442004,2207547936&fm=26&gp=0.jpg"></image>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
+
+

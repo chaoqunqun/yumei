@@ -1,0 +1,25 @@
+<!-- 商品 -->
+<view class="listShow">
+  <!-- 瀑布流布局 -->
+  <view class='footlist'>
+    <view class="foot-left">
+      <block wx:for="{{list}}" wx:key="{{ item.id }}">
+        <view class='footbox' catchtap='jumpdetail' catchlongtap="deletefoot" bindtouchend="touchend" id="{{item.id}}" wx:if="{{index%2==0}}" data-cover="{{item.banner}}" data-title="{{item.title}}">
+          <view>
+            <image class="footImg" src="{{item.banner}}" mode="widthFix"></image>
+          </view>
+        </view>
+      </block>
+    </view>
+
+    <view class="foot-right">
+      <block wx:for="{{list}}" wx:key="{{ item.id }}">
+        <view class='footbox' catchtap='jumpdetail' catchlongtap="deletefoot" bindtouchend="touchend" id="{{item.id}}" wx:if="{{index%2==1}}" data-cover="{{item.banner}}" data-title="{{item.title}}">
+          <view>
+            <image  class="footImg" src="{{item.banner}}" mode="widthFix"></image>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

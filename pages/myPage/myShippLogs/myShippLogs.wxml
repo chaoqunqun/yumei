@@ -1,0 +1,29 @@
+<view class="showBody" style="height:{{phoneHeight}}">
+  <view class="top">
+    <view class="topLeft">
+      <image class="topLimg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3244729309,2441217116&fm=26&gp=0.jpg"></image>
+      <view class="topLname">申通快递</view>
+      <view class="topLnum">1234567890123456</view>
+    </view>
+    <view class="topRight" catchtap="clickCopy">
+      复制
+    </view>
+  </view>
+
+  <!-- body -->
+  <view class="content">
+    <view class="contentL">
+      <view class="contentLson" wx:for="{{3}}">
+        <!-- <view class="emptYuan"></view> -->
+        <view class="syuan"></view>
+        <view class="line"></view>
+      </view>
+    </view>
+    <view class="contentR">
+      <view class="contentRson" wx:for="{{3}}">
+        <view class="contentLsontext">江苏一区已揽货</view>
+        <view class="contentLsontime">01-12 18:19</view>
+      </view>
+    </view>
+  </view>
+</view>

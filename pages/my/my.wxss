@@ -87,7 +87,7 @@
   width:48rpx;
   height:48rpx;
   position:absolute;
-  top:-20rpx;
+  top:0rpx;
   right:68rpx;
 }
 
@@ -95,7 +95,7 @@
   width:48rpx;
   height:48rpx;
   position:absolute;
-  top:-20rpx;
+  top:0rpx;
   right:0;
 }
 

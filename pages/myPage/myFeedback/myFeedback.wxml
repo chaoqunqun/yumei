@@ -1,0 +1,25 @@
+<view class="feedBox">
+  <view class="feedText">反馈</view>
+  <textarea class="feedArea" placeholder="请输入您的想法" maxlength="500"></textarea>
+</view>
+
+<!-- qq phone wechat -->
+<view class="chatBox">
+  <view class="chatBoxSon">
+    <view class="chatBoxText">手机号</view>
+    <input class="chatInput" type="text" placeholder="请输入您的手机号"/>
+  </view>
+
+  <view class="chatBoxSon">
+    <view class="chatBoxText">QQ</view>
+    <input class="chatInput" type="text" placeholder="请输入您的QQ号"/>
+  </view>
+
+  <view class="chatBoxSon">
+    <view class="chatBoxText">微信</view>
+    <input class="chatInput" type="text" placeholder="请输入您的微信号"/>
+  </view>
+</view>
+
+<!-- 提交 -->
+<view class="confirmBtn">提交</view>

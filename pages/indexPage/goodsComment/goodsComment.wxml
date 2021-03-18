@@ -1,0 +1,40 @@
+<view class="showBody">
+  <view class="pinBox">
+    <image class="pinHead" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2941782042,3120113709&fm=26&gp=0.jpg"></image>
+    <view class="pinRightBox">
+      <view class="pinRightTitle">
+        <view class="rightNick">我是吃货吗</view>
+        <view class="rightTime">2021-02-24 15:43</view>
+      </view>
+      <!-- star -->
+      <view class="pinRightStar">
+        <block wx:for="{{3}}" wx:key="a">
+          <image mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3664809396,4095105428&fm=26&gp=0.jpg"></image>
+        </block>
+        <block wx:for="{{5-3}}" wx:key="b">
+          <image mode="aspectFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3664809396,4095105428&fm=26&gp=0.jpg"></image>
+        </block>
+      </view>
+      <!-- introduce -->
+      <view class="pinInfo">
+        正大优选果肽饮168g膳食营养纤维冲饮正大优选果肽饮168g膳食营养纤维冲饮
+      </view>
+
+      <!-- 评价图片 -->
+      <view class="pinImgBox">
+        <block wx:for="{{6}}" wx:key="d">
+          <image class="pinImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1431307876,2136070498&fm=26&gp=0.jpg"></image>
+        </block>
+      </view>
+
+      <!-- 商家回复 -->
+      <view class="bsnsReply">
+        <view class="bsnsTitle">
+          <view>商家回复</view>
+          <view>2021-02-24 15:43</view>
+        </view>
+        <view class="replyWord">谢谢您的肯定谢谢您的肯定谢谢您的肯定谢谢您的肯定谢谢您的肯定谢谢您的肯定谢谢您的肯定谢谢您的肯定谢谢您的肯定谢谢您的肯定谢谢您的肯定谢谢您的肯定</view>
+      </view>
+    </view>
+  </view>
+</view>

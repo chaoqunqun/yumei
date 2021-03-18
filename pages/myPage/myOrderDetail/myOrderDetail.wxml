@@ -1,0 +1,116 @@
+<view class="orderTop">
+  <view class="orderTopDet">
+    <image class="orderDetImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2311880584,2913270576&fm=26&gp=0.jpg"></image>
+    <view class="orderTopMid">
+      <view class="orderTopMidT">待支付</view>
+      <view class="midTbom">
+        <view class="midTbomPrice">需付款: ￥495.00</view>
+        <view class="midTbomTime">倒计时: 23:32:04</view>
+      </view>
+    </view>
+    <view class="goWhatBtn">去支付</view>
+  </view>
+</view>
+
+<!-- showList -->
+<view class="showList">
+  <view class="addBox">
+    <view class="addBoxSon">
+      <image class="dingImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3244729309,2441217116&fm=26&gp=0.jpg"></image>
+      <view class="addBoxMid">
+        <view class="addName">钱磊 182****6699</view>
+        <view class="addInfo">北京市朝阳区三环到四环之间</view>
+      </view>
+      <image class="duiImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3244729309,2441217116&fm=26&gp=0.jpg"></image>
+    </view>
+  </view>
+
+  <view class="addBox">
+    <view class="addBoxSon">
+      <image class="dingImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3244729309,2441217116&fm=26&gp=0.jpg"></image>
+      <view class="addBoxMid">
+        <view class="addName">上海已经发往北京</view>
+        <view class="addInfo">2020-03-03 14:32:33</view>
+      </view>
+      <image class="duiImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3244729309,2441217116&fm=26&gp=0.jpg"></image>
+    </view>
+  </view>
+  
+  <!-- 商品信息 -->
+  <view class="listBox">
+    <view class="listBoxTop">
+      <view class="listTopRight">
+        <image class="listBoxImg" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3461177213,1528805342&fm=26&gp=0.jpg"></image>
+        <view class="listBoxName">正大食品旗舰店</view>
+      </view>
+    </view>
+    <view class="productBox">
+      <image class="productImg" mode="aspectFill" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2485954775,21433741&fm=26&gp=0.jpg"></image>
+      <view class="productRight">
+        <view class="productName">正大优选果肽饮168g膳食营养纤维冲饮</view>
+        <view class="productSpec">168g</view>
+        <view class="productRightBom">
+          <view class="productPrice">￥168.00</view>
+          <view class="productNum">x1</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 订单详情 -->
+  <view class="orderInfo">
+    <view class="orderInfoTop">
+      <view class="line"></view>
+      <view class="infoTopT">订单详情</view>
+    </view>
+    <view class="orderInfoDet">
+      <view class="infoDetBox">
+        <view class="infoDetBoxL">订单号：</view>
+        <view class="infoDetBoxR infoDetBoxROne">zd123456789</view>
+      </view>
+      <view class="copyBtn" catchtap="clickCopy">复制</view>
+    </view>
+
+    <view class="orderInfoDet">
+      <view class="infoDetBox">
+        <view class="infoDetBoxL">下单时间：</view>
+        <view class="infoDetBoxR">2020-12-13 17:22:30</view>
+      </view>
+    </view>
+
+    <view class="orderInfoDet">
+      <view class="infoDetBox">
+        <view class="infoDetBoxL">支付时间：</view>
+        <view class="infoDetBoxR">2020-12-13 17:22:30</view>
+      </view>
+    </view>
+
+    <view class="orderInfoDet">
+      <view class="infoDetBox">
+        <view class="infoDetBoxL">支付方式：</view>
+        <view class="infoDetBoxR">微信支付</view>
+      </view>
+    </view>
+
+    <view class="orderInfoDet">
+      <view class="infoDetBox">
+        <view class="infoDetBoxL">发货时间：</view>
+        <view class="infoDetBoxR">2020-12-13 17:22:30</view>
+      </view>
+    </view>
+
+    <view class="orderInfoDet">
+      <view class="infoDetBox">
+        <view class="infoDetBoxL">完成时间：</view>
+        <view class="infoDetBoxR">2020-12-13 17:22:30</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 底部 -->
+<view class="orderBom">
+  <view class="commonBtn orderBomBtn">查看物流</view>
+  <view class="commonBtn orderBomBtn">确认收货</view>
+  <view class="commonBtn goBomBtn">去支付</view>
+</view>

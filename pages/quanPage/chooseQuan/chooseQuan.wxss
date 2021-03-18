@@ -1,0 +1,116 @@
+page{
+  background:#fff;
+}
+
+.navBig{
+  width:100%;background:#fff;    
+  display: flex;
+  align-items: center;
+}
+
+.nav{
+  width:642rpx!important;
+  height:90rpx;
+  overflow: hidden;
+  display:flex;
+  white-space: nowrap;
+  margin-left:30rpx;
+  line-height:90rpx;
+}
+
+.tab-item{
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #8894A4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right:40rpx;
+}
+
+.hline{
+  width: 32rpx;
+  height: 6rpx;
+  background: #FF5901;
+  border-radius: 4rpx;
+}
+
+.tab-item.active {
+  font-size: 32rpx;
+  color: #222B45;
+  line-height:75rpx;
+}
+
+.moreImg{
+  width:48rpx;
+  height:48rpx;
+  margin:0 30rpx;
+}
+
+.bgDv{
+  width:100%;
+  height:20rpx;
+  background:#f8f8f8;
+}
+
+/* quanlist */
+.quanList{
+  width:100%;
+}
+
+.quanListBig{
+  height:100%;
+}
+
+.radioGroup{
+  width:100%;
+  display:inline-block;
+}
+
+.listFather{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.listSon{
+  width:690rpx;
+  margin:30rpx auto;
+  display:flex;
+  justify-content: space-between;
+}
+
+.listSonL{
+  width:602rpx;
+  height:106rpx;
+  display:flex;
+  justify-content: space-between;
+  border-bottom:2rpx solid #f8f8f8;
+}
+
+.listImg{
+  width: 72rpx;
+  height: 72rpx;
+  border-radius:50%;
+}
+
+.listInfo{
+  margin-left:16rpx;
+}
+
+.listInfoT{
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #222B45;
+  margin-bottom:6rpx;
+}
+
+.listInfoS{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #ABA8A6;
+}
+
+.radioBox{
+  margin-top:15rpx;
+}

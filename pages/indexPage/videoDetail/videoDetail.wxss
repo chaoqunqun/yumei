@@ -1,0 +1,247 @@
+/* video */
+.videoBox{
+  width: 100%;
+  height: 440rpx;
+}
+
+.video{
+  width:100%;
+  height:100%;
+}
+
+/* video简介 */
+.videoIntro{
+  width: 100%;
+  height: 160rpx;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+
+.introBox{
+  width:690rpx;
+  display:flex;
+  justify-content: space-between;
+  margin:30rpx auto 0 auto;
+}
+
+.introBoxL{
+  display:flex;
+  flex-direction: column;
+}
+
+.BoxLtext{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+  margin-bottom:10rpx;
+} 
+
+.BoxLSpanO{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #FF5901;
+  margin-right:20rpx;
+}
+
+.BoxLSpanT{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #C4C4C4;
+}
+
+.introBoxR{
+  display:flex;
+}
+
+.shouImg{
+  width:30rpx;
+  height:30rpx;
+  margin-top:2rpx;
+}
+
+.shouText{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #C4C4C4;
+  margin-left:6rpx;
+}
+
+/* 名师简介 */
+.teacherIntro{
+  width:100%;
+  background: #FFFFFF;
+  margin:20rpx 0;
+  overflow: hidden;
+}
+
+.commonTop{
+  display:flex;
+  align-items:center;
+  margin:30rpx 0 0 36rpx;
+}
+
+.commonLine{
+  width: 6rpx;
+  height: 24rpx;
+  background: #FF5901;
+  border-radius: 4rpx;
+}
+
+.commonText{
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #222B45;
+  margin-left:20rpx;
+}
+
+.teacherInfo{
+  width:684rpx;
+  display:flex;
+  margin:32rpx 0 40rpx 36rpx;
+}
+
+.teacherImg{
+  width:140rpx;
+  height:140rpx;
+  border-radius: 50%;
+  margin-right:20rpx;
+}
+
+.teacherNick{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+  margin-bottom:10rpx;
+}
+
+.teacherText{
+  width: 262px;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #9C9998;
+}
+
+/* 课程简介 */
+.lessionIntro{
+  width: 690rpx;
+  margin:30rpx auto;
+}
+
+/* 学院评论 */
+.commonTopTwo{
+  display: flex;
+  align-items: center;
+  margin: 30rpx 0 0 36rpx;
+  justify-content: space-between;
+}
+
+.commonTopTwoL{
+  display:flex;
+  align-items:center;
+}
+
+.commonNum{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #C4C4C4;
+  margin-left:14rpx;
+}
+
+.pingduiImg{
+  width:40rpx;
+  height:40rpx;
+  margin-right:30rpx;
+}
+
+.pingBox{
+  width:684rpx;
+  margin:32rpx 0 32rpx 36rpx;
+}
+
+.pingBoxTop{
+  display:flex;
+  height:60rpx;
+  display:flex;
+  align-items:center;
+}
+
+.pingHead{
+  width:60rpx;
+  height:60rpx;
+}
+
+.pingNick{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+  margin-left:10rpx;
+}
+
+.pingInfo{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #222B45;
+  line-height: 32rpx;
+  margin-top:20rpx;
+}
+
+/* 课程推荐 */
+.lessionHot{
+  width:100%;
+  margin-top:20rpx;
+  background:#fff;
+}
+
+.showList{
+  width:692rpx;
+  margin:30rpx auto;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+.showBox{
+  width:336rpx;
+  height:350rpx;
+  background:#fff;
+  margin-bottom:20rpx;
+}
+
+.showBoxImg{
+  width:336rpx;
+  height:240rpx;
+  border-radius: 20rpx 20rpx 0px 0px;
+}
+
+.showBom{
+  margin:14rpx 20rpx 0 16rpx;
+}
+
+.showBomTitle{
+  width:100%;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+  text-overflow:ellipsis; 
+  white-space:nowrap; 
+  overflow:hidden; 
+}
+
+.showBomDat{
+  width:100%;
+  margin-top:8rpx;
+  display:flex;
+  justify-content:space-between;
+}
+
+.showBomPrice{
+  font-size: 24rpx;
+  font-weight: 600;
+  color: #ED1111;
+}
+
+.showBomNum{
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #C4C4C4;
+}

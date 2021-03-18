@@ -1,0 +1,35 @@
+<view class="navBig">
+  <scroll-view class="nav" scroll-x="true" scroll-left="{{scrollleft}}">
+    <block wx:for="{{navBox}}" wx:key="d">
+      <view style="display:inline-block;">
+        <view class="tab-item {{navIndex==index?'active':''}}" data-index="{{index}}" catchtap="clickNav">
+          <view>{{item}}</view>
+          <view class="hline" style="display:{{navIndex==index?'block':'none'}}"></view>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+  <image class="moreImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2941782042,3120113709&fm=26&gp=0.jpg"></image>
+</view>
+
+<view class="bgDv"></view>
+
+<!-- quanziList -->
+<view class="quanList" style="height:{{phoneHeight}}">
+  <scroll-view scroll-y class="quanListBig">
+    <radio-group class="radioGroup" bindchange="radioChange">
+      <label class="listFather" wx:for="{{10}}" wx:key="v">
+        <view class="listSon">
+          <image class="listImg" mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2941782042,3120113709&fm=26&gp=0.jpg"></image>
+          <view class="listSonL">
+            <view class="listInfo">
+              <view class="listInfoT">今日美食推荐</view>
+              <view class="listInfoS">做了美食就和圈友分享一下吧</view>
+            </view>
+            <radio class="radioBox" value="{{index}}" checked="{{item.checked}}"/>
+          </view>
+        </view>
+      </label>
+    </radio-group>
+  </scroll-view>
+</view>

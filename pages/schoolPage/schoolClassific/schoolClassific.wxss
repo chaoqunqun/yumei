@@ -1,0 +1,86 @@
+.showBody{
+  width:100%;
+  display:flex;
+  background:#fff;
+  margin-top:30rpx;
+}
+
+.showBodyL{
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  background:#f8f8f8;
+}
+
+.showBodyLson{
+  width: 220rpx;
+  height: 92rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+  text-align: center;
+  line-height:92rpx;
+  background:#f8f8f8;
+}
+
+.activeText{
+  font-size: 32rpx;
+  font-weight: 500;
+  background:#fff
+}
+
+.showBodyR{
+  height:100%;
+  width:530rpx;
+  overflow: hidden;
+}
+
+.showBodyRson{
+  display:flex;
+  overflow: hidden;
+  margin-left:30rpx;
+  margin-bottom:20rpx;
+}
+
+.showBodyRson:nth-child(1){
+  margin-top:30rpx;
+}
+
+.rSonImg{
+  width: 196rpx;
+  height: 140rpx;
+  border-radius: 20rpx;
+}
+
+.rSonr{
+  margin-left:20rpx;
+}
+
+.rSonrT{
+  width: 251rpx;
+  height: 64rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+  line-height: 32rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow:hidden;
+  -webkit-box-orient: vertical;
+  margin-top:4rpx;
+}
+
+.rSonrP{
+  font-size: 24rpx;
+  font-weight: 600;
+  color: #ED1111;
+  margin:6rpx 0;
+}
+
+.rSonrN{
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #C4C4C4;
+}

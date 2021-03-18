@@ -1,0 +1,80 @@
+/* 反馈框 */
+.feedBox{
+  width: 100%;
+  height: 516rpx;
+  background: #FFFFFF;
+  margin-top:20rpx;
+  overflow: hidden;
+}
+
+.feedText{
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #222B45;
+  margin:34rpx 0 0 32rpx;
+}
+
+.feedArea{
+  width: 690rpx;
+  height: 400rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #C4C4C4;
+  background: #FCFCFC;
+  border-radius: 20rpx;
+  padding:36rpx 0 0 30rpx;
+  margin:20rpx auto 0 auto;
+}
+
+/* chatBox */
+.chatBox{
+  width: 100%;
+  height: 300rpx;
+  background: #FFFFFF;
+  margin-top:20rpx;
+}
+
+.chatBoxSon{
+  width:690rpx;
+  height:100rpx;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  border-bottom:2rpx solid #F0F3F5;
+  margin:0 auto;
+}
+
+.chatBoxSon:last-child{
+  border:none;
+}
+
+.chatBoxText{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+}
+
+.chatInput{
+  width:575rpx;
+  height:100%;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+}
+
+/* 提交 */
+.confirmBtn{
+  width: 578rpx;
+  height: 100rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  text-align: center;
+  line-height:100rpx;
+  color: #FFFFFF;
+  background: #FF5901;
+  box-shadow: 0px 4px 9px 0px rgba(255, 89, 1, 0.2);
+  border-radius: 50rpx;
+  position:absolute;
+  left:86rpx;
+  bottom:30rpx;
+}

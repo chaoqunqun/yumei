@@ -1,0 +1,31 @@
+<view class="pingBox">
+  <view class="productBox">
+    <image class="productImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3663359702,1992818410&fm=26&gp=0.jpg"></image>
+    <view class="productInfo">
+      <view class="productName">正大优选果肽饮168g膳食营养纤维冲饮膳食营养</view>
+      <view class="productSpec">
+        <view>
+          <text style="color:red;margin-right:12rpx;">￥26.00</text>
+          <text>168g</text>
+        </view>
+        <view class="num">x1</view>
+      </view>
+    </view>
+  </view>
+  <view class="pingInfoBox">
+    <view class="pingInfoText">请选择退货理由</view>
+    <view class="starBox">
+      <view class="plaseText">请选择</view>
+      <image class="duiImg" mode="aspectFill" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3663359702,1992818410&fm=26&gp=0.jpg"></image>
+    </view>
+  </view>
+  <textarea class='pingText' placeholder="请输入您的描述" maxlength='500'/>
+  <view class="pingImgBox">
+    <!-- 上传图片集合 -->
+    <image class="upImg" wx:for="{{tempFilePaths}}" wx:key="r" src='{{item}}' bindlongpress="deleteImage" bindtap="" data-index="{{index}}" mode="aspectFill"/>
+    <view class="addupImg" wx:if="{{tempFilePaths.length<6}}" catchtap="uploadImg"></view>
+  </view>
+</view>
+
+<!-- 提交 -->
+<view class="confirmBtn">提交</view>

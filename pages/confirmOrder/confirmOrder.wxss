@@ -1,0 +1,282 @@
+.showList{
+  width:690rpx;
+  margin:30rpx auto 130rpx auto;
+}
+
+.addBox{
+  width: 690rpx;
+  height: 140rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  overflow: hidden;
+  margin-bottom:20rpx;
+}
+
+.addBoxSon{
+  width:642rpx;
+  margin:34rpx 0 0 30rpx;
+}
+
+.dingImg{
+  width:32rpx;
+  height:32rpx;
+  float:left;
+  margin-top:4rpx;
+}
+
+.addBoxMid{
+  width:80%;
+  margin-left:10rpx;
+  float:left;
+}
+
+.addName{
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #222B45;
+  display:flex;
+  align-items: center;
+}
+
+.moRen{
+  width: 52rpx;
+  height: 30rpx;
+  font-size: 20rpx;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+  line-height:30rpx;
+  background: #FF5901;
+  border-radius: 4rpx;
+  margin-left:10rpx;
+}
+
+.addInfo{
+  width:100%;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #ABA8A6;
+  margin-top:10rpx;
+  overflow: hidden;
+  text-overflow:ellipsis; 
+  white-space:nowrap;
+}
+
+.duiImg{
+  width:40rpx;
+  height:40rpx;
+  float:right;
+  margin-top:20rpx;
+}
+
+/* 订单产品详情 */
+.productInfo{
+  width:690rpx;
+  border-radius: 20rpx;
+  background:#fff;
+  margin:20rpx 0;
+  overflow: hidden;
+}
+
+.listBoxTop{
+  width:630rpx;
+  height:96rpx;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-left:30rpx;
+  margin-bottom:3rpx;
+}
+
+.listTopRight{
+  width:80%;
+  height:100%;
+  display:flex;
+  align-items:center;
+}
+
+.listBoxImg{
+  width:40rpx;
+  height:40rpx;
+}
+
+.listBoxName{
+  width:80%;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #222B45;
+  margin-left:10rpx;
+  text-overflow:ellipsis; 
+  white-space:nowrap; 
+  overflow:hidden; 
+}
+
+.goodsBox{
+  height:160rpx;
+  display:flex;
+  margin:0 0 20rpx 30rpx;
+}
+
+.goodsImg{
+  width:160rpx;
+  height:160rpx;
+  margin-right:30rpx;
+}
+
+.goodsName{
+  width: 400rpx;
+  height: 72rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+  line-height: 36rpx;
+  margin-top:16rpx;
+  margin-bottom:18rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow:hidden;
+  -webkit-box-orient: vertical;
+}
+
+.goodsRightBom{
+  width:436rpx;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.goodsPrice{
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #ED1111;
+}
+
+.goodsNum{
+  width:160rpx;
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.goodsOperation{
+  width: 46rpx;
+  height: 46rpx;
+  text-align: center;
+  line-height:46rpx;
+  background: #FFFFFF;
+  border-radius: 10rpx;
+  border: 2rpx solid #DADADA;
+}
+
+.goodsNumber{
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #C4C4C4;
+}
+
+/* 留言 */
+.leaveMessage{
+  width: 690rpx;
+  height: 96rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.leaveText{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #ABA8A6;
+  margin-left:30rpx;
+}
+
+.messageInput{
+  width: 168rpx;
+  height: 100%;
+  line-height:96rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #ABA8A6;
+  margin-right:30rpx;
+}
+
+/* feeInfo */
+.feeInfo{
+  width:690rpx;
+  height:260rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  margin-top:20rpx;
+  overflow: hidden;
+}
+
+.feeDetail{
+  margin:30rpx;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feeDetName{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #ABA8A6;
+}
+
+.feeDetPrice{
+  font-size: 24rpx;
+  font-weight: 600;
+  color: #222B45;
+}
+
+.feeBom{
+  color:#ED1111;
+}
+
+/* 确认底部 */
+.confirmBom{
+  width: 100%;
+  height: 100rpx;
+  background: #FFFFFF;
+  position:fixed;
+  bottom:0;
+  left:0;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.confirmBomL{
+  display:flex;
+  align-items: center;
+}
+
+.totalNum{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #C4C4C4;
+  margin:0 30rpx;
+}
+
+.totalPrice{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #222B45;
+}
+
+.confirmBtn{
+  width: 180rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-align: center;
+  line-height:80rpx;
+  background: #FF5901;
+  border-radius: 40rpx;
+  margin-right:30rpx;
+}

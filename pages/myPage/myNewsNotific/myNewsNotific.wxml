@@ -1,0 +1,29 @@
+<view class="newsBox">
+  <view class="newsTop">
+    <view class="newsTitle">[动态提醒]</view>
+    <view class="newsTime">2008年05月12日 07:30</view>
+  </view>
+
+  <view class="replyBox" wx:if="{{flag}}">
+    <image class="replyImg" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3461177213,1528805342&fm=26&gp=0.jpg"></image>
+    <view class="replyBoxR">
+      <view class="replyRt">
+        <text>白雪皑皑</text>
+        回复了/评价了你：
+      </view>
+      <view class="replyText">
+        我们为不懈的努力鼓掌，但按结果付酬
+      </view>
+    </view>
+  </view>
+
+  <view class="newsText" wx:if="{{!flag}}">
+    您购买的商品 果肽饮 已经发货。
+  </view>
+
+  <view class="detBox" style="margin-left:{{flag==true?'118rpx':'30rpx'}}">
+    <image class="detImg" mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3461177213,1528805342&fm=26&gp=0.jpg"></image>
+    <view class="detText">正大优选果肽饮168g膳食营养纤维冲饮</view>
+  </view>
+
+</view>
